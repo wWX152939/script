@@ -1,0 +1,23 @@
+	public Signal sigOLCRLogin = new Signal(tagOLCRLogin.class, String.class);
+	public Signal sigOLCRSetAccount = new Signal(tagOLCRSetAccount.class, String.class);
+	public Signal sigOLCRGetCaptcha = new Signal(tagOLCRGetCaptcha.class, String.class);
+	public Signal sigOLCRJoinSchool = new Signal(tagOLCRJoinSchool.class, String.class);
+	public Signal sigOLCRMythwareIdLogin = new Signal(tagOLCRMythwareIdLogin.class, String.class);
+	public Signal sigOLCRGetTodayCourse = new Signal(tagOLCRGetTodayCourse.class, String.class);
+	public Signal sigOLCRGetCourse = new Signal(tagOLCRGetCourse.class, String.class);
+	public Signal sigOLCRGetCourseInfo = new Signal(tagOLCRGetCourseInfo.class, String.class);
+	public Signal sigOLCRGetCurrentClasses = new Signal(tagOLCRGetCurrentClasses.class, String.class);
+	public Signal sigOLCRGetOwnClasses = new Signal(tagOLCRGetOwnClasses.class, String.class);
+	public Signal sigOLCRApplyCourse = new Signal(tagOLCRApplyCourse.class, String.class);
+	public Signal sigOLCREnterCourse = new Signal(tagOLCREnterCourse.class, String.class);
+	public Signal sigOLCRGetCourseInClass = new Signal(tagOLCRGetCourseInClass.class, String.class);
+	
+	public Signal sigOLCRMicControl = new Signal(tagOLCRMicControl.class, String.class);
+	public Signal sigOLCRInClassGetClassStatus = new Signal(tagOLCRInClassGetClassStatus.class, String.class);
+	
+	public Signal sigOLCRInClassGetClassStatusNotify = new Signal(tagOLCRInClassGetClassStatusNotify.class);
+	public Signal sigOLCRStatusNotify = new Signal(LoginStatus.class);
+	public Signal sigOLCRLogout = new Signal(tagLCRLogout.class, String.class);
+	
+
+	public Signal sigOLCRSetLessonMode = new Signal(tagOLCRSetLessonMode.class, String.class);

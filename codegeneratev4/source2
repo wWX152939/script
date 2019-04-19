@@ -1,0 +1,7 @@
+ExtendDisplayAddRequest
+ExtendDisplayDeleteRequest
+ExtendDisplayUseRequest
+ExtendDisplaySetNameRequest
+ExtendDisplayRenameRequest
+ExtendDisplayUnbindRequest
+ExtendDisplayCheckRequest
