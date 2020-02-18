@@ -10,12 +10,24 @@ function info
 {
 	git log origin/$3 | grep -C 5 "Date.*"$2 | grep -A 7 $1 
 }
+
+function calcTotal
+{
+	#echo 1 2 3 $1 $2 $3
+	total=`git log origin/$3 | grep -C 5 "Date.*"$2 | grep  $1 | wc -l`
+	return $total
+}
+function calcMergeNum
+{
+
+	mergenum=`git log origin/$3 | grep -C 5 "Date.*"$2 | grep -C 5  $1  | grep Merge | wc -l`
+	return $mergenum
+	
+}
 function calcv4Bugs
 {
 	
 	echo "fix v4 bugs"
-	total=`git log origin/v4 | grep -C 5 "Date.*"$2 | grep  $1 | wc -l`
-	mergenum=`git log origin/v4 | grep -C 5 "Date.*"$2 | grep -C 5  $1  | grep Merge | wc -l`
 	total=$(($total - $mergenum))
 	echo $total
 	
@@ -23,12 +35,34 @@ function calcv4Bugs
 
 
 }
+function calcBugs
+{
+	echo "fix $3 bugs" >> tmp
+	calcTotal $1 $2 $3 
+	total=$?
+	#echo total $total
+	calcMergeNum $1 $2 $3
+	mergeNum=$?
+	#echo mergeNum $mergeNum
+	total=$(($total - $mergenum))
+	echo $total >> tmp
+	echo --------------*******************$3 bugs***********************--------------------	
+	git log origin/$3 | grep -C 5 "Date.*"$2 | grep  -A 5 $1 
+
+
+}
 function calcv5Bugs
 {
-	
+	branch=v5	
 	echo "fix v5 bugs"
-	total=`git log origin/v5 | grep -C 5 "Date.*"$2 | grep  $1 | wc -l`
-	mergenum=`git log origin/v5 | grep -C 5 "Date.*"$2 | grep -C 5  $1  | grep Merge | wc -l`
+	#total=`git log origin/$branch | grep -C 5 "Date.*"$2 | grep  $1 | wc -l`
+	#mergenum=`git log origin/$branch | grep -C 5 "Date.*"$2 | grep -C 5  $1  | grep Merge | wc -l`
+	calcTotal $1 $2 $branch
+	total=$?
+	echo $total
+	calcMergeNum $1 $2 $branch
+	mergeNum=$?
+	echo $mergeNum
 	total=$(($total - $mergenum))
 	echo $total
 	
@@ -48,10 +82,22 @@ function calcv6Bugs
 	#git log origin/v5 | grep -C 5 "Date.*Mar" | grep  -C 5 selivert.xu 
 
 }
+function calcv7Bugs
+{
+	
+	echo "fix v7 bugs"
+	total=`git log origin/v7 | grep -C 5 "Date.*"$2 | grep  $1 | wc -l`
+	mergenum=`git log origin/v7 | grep -C 5 "Date.*"$2 | grep -C 5  $1  | grep Merge | wc -l`
+	total=$(($total - $mergenum))
+	echo $total
+	
+	#git log origin/v5 | grep -C 5 "Date.*Mar" | grep  -C 5 selivert.xu 
+
+}
 #selivert.xu
 #chunliang.chen
 #jing.zeng
-name=""
+name="zhiwei"
 if [ $1 == xp ]
 	then
 	name="selivert.xu"
@@ -109,9 +155,11 @@ if [ -n "$3" ]
 else
 	if [ "$name" != "" ]
 		then
-		calcv4Bugs $name $month
-		calcv5Bugs $name $month
-		calcv6Bugs $name $month
+		calcBugs $name $month "v5"
+		calcBugs $name $month v6
+		calcBugs $name $month v7
 	fi
 fi
+cat tmp
+rm tmp
 

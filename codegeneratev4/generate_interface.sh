@@ -160,7 +160,7 @@ function generate2
 			str1=$line
 			str1=`echo ${line/%Request/}`
 			#str1=`echo ${str2#METHOD_OLCR_}`
-			str2=`python -c 'import generate_name; print generate_name.change_variable_name("'$str1'")'`
+			str2=`python2.7 -c 'import generate_name; print generate_name.change_variable_name("'$str1'")'`
 			JNIBinder NEV_$str2""_RESPONSE
 			str2=METHOD_$str2
 			#echo str1 $str1

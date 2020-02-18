@@ -1,0 +1,3 @@
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTSignin.disconnectReceiver(this);
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTLessonHeader.disconnectReceiver(this);
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTLessonQuestion.disconnectReceiver(this);

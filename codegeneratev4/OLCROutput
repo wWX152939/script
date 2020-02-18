@@ -1,0 +1,144 @@
+public static final String Preference_OLCRIpAddr = "OLCRIpAddr";
+public String GetOLCRIpAddr() {;
+return m_preferences.getString(Preference_OLCRIpAddr, "");
+}
+public void SetOLCRIpAddr(String strOLCRIpAddr) {
+m_preferences.edit()
+.putString(Preference_OLCRIpAddr, strOLCRIpAddr).commit();
+}
+public static final String Preference_OLCRMythwareIdAddr = "OLCRMythwareIdAddr";
+public String GetOLCRMythwareIdAddr() {
+return m_preferences.getString(Preference_OLCRMythwareIdAddr, "");
+}
+public void SetOLCRMythwareIdAddr(String strOLCRMythwareIdAddr) {
+m_preferences.edit()
+.putString(Preference_OLCRMythwareIdAddr, strOLCRMythwareIdAddr).commit();
+}
+public static final String Preference_OLCRFrontJyy = "OLCRFrontJyy";
+public String GetOLCRFrontJyy() {
+return m_preferences.getString(Preference_OLCRFrontJyy, "");
+}
+public void SetOLCRFrontJyy(String strOLCRFrontJyy) {
+m_preferences.edit()
+.putString(Preference_OLCRFrontJyy, strOLCRFrontJyy).commit();
+}
+public static final String Preference_OLCRFrontMythwareid = "OLCRFrontMythwareid";
+public String GetOLCRFrontMythwareid() {
+return m_preferences.getString(Preference_OLCRFrontMythwareid, "");
+}
+public void SetOLCRFrontMythwareid(String strOLCRFrontMythwareid) {
+m_preferences.edit()
+.putString(Preference_OLCRFrontMythwareid, strOLCRFrontMythwareid).commit();
+}
+public static final String Preference_SetOLCRDebug = "SetOLCRDebug";
+public boolean GetSetOLCRDebug() {
+return m_preferences.getBoolean(Preference_SetOLCRDebug, "");
+}
+public void SetSetOLCRDebug(boolean strSetOLCRDebug) {
+m_preferences.edit()
+.putBoolean(Preference_SetOLCRDebug, strSetOLCRDebug).commit();
+}
+public static final String Preference_OLCRWebRTCAEC = "OLCRWebRTCAEC";
+public boolean GetOLCRWebRTCAEC() {
+return m_preferences.getBoolean(Preference_OLCRWebRTCAEC, "");
+}
+public void SetOLCRWebRTCAEC(boolean strOLCRWebRTCAEC) {
+m_preferences.edit()
+.putBoolean(Preference_OLCRWebRTCAEC, strOLCRWebRTCAEC).commit();
+}
+public static final String Preference_OLCRWebRTCAGC = "OLCRWebRTCAGC";
+public boolean GetOLCRWebRTCAGC() {
+return m_preferences.getBoolean(Preference_OLCRWebRTCAGC, "");
+}
+public void SetOLCRWebRTCAGC(boolean strOLCRWebRTCAGC) {
+m_preferences.edit()
+.putBoolean(Preference_OLCRWebRTCAGC, strOLCRWebRTCAGC).commit();
+}
+public static final String Preference_OLCRWebRTCNS = "OLCRWebRTCNS";
+public boolean GetOLCRWebRTCNS() {
+return m_preferences.getBoolean(Preference_OLCRWebRTCNS, "");
+}
+public void SetOLCRWebRTCNS(boolean strOLCRWebRTCNS) {
+m_preferences.edit()
+.putBoolean(Preference_OLCRWebRTCNS, strOLCRWebRTCNS).commit();
+}
+public static final String Preference_OLCRWebRTCAEC = "OLCRWebRTCAEC";
+public boolean GetOLCRWebRTCAEC() {
+return m_preferences.getBoolean(Preference_OLCRWebRTCAEC, false);
+}
+public void SetOLCRWebRTCAEC(boolean strOLCRWebRTCAEC) {
+m_preferences.edit()
+.putBoolean(Preference_OLCRWebRTCAEC, strOLCRWebRTCAEC).commit();
+}
+public static final String Preference_OLCRWebRTCAGC = "OLCRWebRTCAGC";
+public boolean GetOLCRWebRTCAGC() {
+return m_preferences.getBoolean(Preference_OLCRWebRTCAGC, false);
+}
+public void SetOLCRWebRTCAGC(boolean strOLCRWebRTCAGC) {
+m_preferences.edit()
+.putBoolean(Preference_OLCRWebRTCAGC, strOLCRWebRTCAGC).commit();
+}
+public static final String Preference_OLCRWebRTCNS = "OLCRWebRTCNS";
+public boolean GetOLCRWebRTCNS() {
+return m_preferences.getBoolean(Preference_OLCRWebRTCNS, false);
+}
+public void SetOLCRWebRTCNS(boolean strOLCRWebRTCNS) {
+m_preferences.edit()
+.putBoolean(Preference_OLCRWebRTCNS, strOLCRWebRTCNS).commit();
+}
+public static final String Preference_OLCRWebRTCAB = "OLCRWebRTCAB";
+public boolean GetOLCRWebRTCAB() {
+return m_preferences.getBoolean(Preference_OLCRWebRTCAB, false);
+}
+public void SetOLCRWebRTCAB(boolean strOLCRWebRTCAB) {
+m_preferences.edit()
+.putBoolean(Preference_OLCRWebRTCAB, strOLCRWebRTCAB).commit();
+}
+public static final String Preference_OLCRWebRTCVB = "OLCRWebRTCVB";
+public boolean GetOLCRWebRTCVB() {
+return m_preferences.getBoolean(Preference_OLCRWebRTCVB, false);
+}
+public void SetOLCRWebRTCVB(boolean strOLCRWebRTCVB) {
+m_preferences.edit()
+.putBoolean(Preference_OLCRWebRTCVB, strOLCRWebRTCVB).commit();
+}
+public static final String Preference_HDKTStatus = "HDKTStatus";
+public int GetHDKTStatus() {
+return m_preferences.getInt(Preference_HDKTStatus, 0);
+}
+public void SetHDKTStatus(int HDKTStatus) {
+m_preferences.edit()
+.putInt(Preference_HDKTStatus, HDKTStatus).commit();
+}
+public static final String Preference_RCCCMSIpAddr = "RCCCMSIpAddr";
+public String GetRCCCMSIpAddr() {
+return m_preferences.getString(Preference_RCCCMSIpAddr, "");
+}
+public void SetRCCCMSIpAddr(String strRCCCMSIpAddr) {
+m_preferences.edit()
+.putString(Preference_RCCCMSIpAddr, strRCCCMSIpAddr).commit();
+}
+public static final String Preference_Cloud = "Cloud";
+public String GetCloud() {
+return m_preferences.getString(Preference_Cloud, "");
+}
+public void SetCloud(String strCloud) {
+m_preferences.edit()
+.putString(Preference_Cloud, strCloud).commit();
+}
+public static final String Preference_SwitchScreenMode = "SwitchScreenMode";
+public int GetSwitchScreenMode() {
+return m_preferences.getInt(Preference_SwitchScreenMode, 0);
+}
+public void SetSwitchScreenMode(int SwitchScreenMode) {
+m_preferences.edit()
+.putInt(Preference_SwitchScreenMode, SwitchScreenMode).commit();
+}
+public static final String Preference_SwitchScreenSubMode = "SwitchScreenSubMode";
+public int GetSwitchScreenSubMode() {
+return m_preferences.getInt(Preference_SwitchScreenSubMode, 0);
+}
+public void SetSwitchScreenSubMode(int SwitchScreenSubMode) {
+m_preferences.edit()
+.putInt(Preference_SwitchScreenSubMode, SwitchScreenSubMode).commit();
+}

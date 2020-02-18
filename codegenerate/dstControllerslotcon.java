@@ -1,0 +1,11 @@
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTSigninFromStudent.connect(this, "slotHDKTSigninFromStudent");
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTQuestionSelectStudent.connect(this, "slotHDKTQuestionSelectStudent");
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTWeixinVisitorLogin.connect(this, "slotHDKTWeixinVisitorLogin");
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTSignin.connect(this, "slotHDKTSignin");
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTLessonHeader.connect(this, "slotHDKTLessonHeader");
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTLessonQuestion.connect(this, "slotHDKTLessonQuestion");
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTStudentDeviceUpdate.connect(this, "slotHDKTStudentDeviceUpdate");
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTQuestionFileUpload.connect(this, "slotHDKTQuestionFileUpload");
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTLessonSyncOver.connect(this, "slotHDKTLessonSyncOver");
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTQuestionWriteSet.connect(this, "slotHDKTQuestionWriteSet");
+mRefService.mEboxJNIBinder.mOnlineClassroomModuleManagement.sigHDKTUpdateLessonTeacher.connect(this, "slotHDKTUpdateLessonTeacher");

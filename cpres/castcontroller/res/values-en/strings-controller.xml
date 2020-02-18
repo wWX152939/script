@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 
+    **100 common **
+    **200 settings **
+    **201 settings controller description**
+    **202 settings personal**
+    **203 settings network**
+    **206 settings cast**
+    **208 settings display**
+    **209 settings time**
+    **210 settings system**
+    **300 home **
+    **400 gallery **
+    **500 annotation **
+    **600 groups **
+    **700 camera **
+    **800 storage(record) **
+    **1100 welcome theme **
+    **3000 about **
+    **3100 logins **
+    **2000 no need translate **
+    **2001 need translate **
+     
+    -->
+    
+    <!-- 100 common -->
+    <string name="app_name">ScreenCast Pro</string>
+    <string name="frm_login_waitting">Loading</string>
+    <string name="frm_login_toast_teacher_logged">%s has connected to another device</string>
+    <string name="screenCapturing">Capturing the screen</string>
+    <string name="wait_login_again">Disconnect with Mythware AP, please wait to reconnect! </string>
+    <string name="wait_login_disconnect">Stop waiting</string>
+    <string name="toast_login_disconnect">Disconnect with Mythware AP, you can continue with the current operation, \n Automatically reconnect when the system detects Mythware AP!</string>
+    <string name="toast_login_again">Detect the Mythware AP lost previously, reconnect successfully!</string>
+    <string name="toast_net_start_failed">Connect failed, please try again!</string>
+    
+    <string name="hdmi_output">HDMI output resolution</string>
+    <string name="connect_type">Please select connection type</string>
+    <string name="please_input_pin">Please input PIN code</string>
+    <string name="control_only">As Controller</string>
+    <string name="sender_only">Cast My Device</string>
+    <string name="cast">Cast</string>
+    
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">OK</string>
+    <string name="go_on">Continue</string>
+    
+    <string name="layout">Layout</string>
+    <string name="record">Record</string>
+    <string name="annotation">Annotation</string>
+    <string name="snapshot">Snapshot</string>
+    <string name="more">More</string>
+    <string name="recording">Recording</string>
+    <string name="u_disk">USB Drive</string>
+    <string name="cloud_disk">Classroom AP</string>
+    <string name="share_button">Share</string>
+    
+    
+	
+    
+    <string name="clean_all_picture">Clear all views</string>
+    <string name="source_frequent">Admin Source</string>
+    <string name="source_common">Client Source</string>
+    <string name="source_group">Group</string>
+    <string name="source_file">Files</string>
+    <string name="no_device_now">No device available</string>
+    <string name="no_usb_device_now">No USB drive available</string>
+    
+    <string name="interaction_class">Interactive class</string>
+    <string name="storage">Storage</string>
+    <string name="apps">Applications</string>
+    <string name="volume_regulate">Volume</string>
+    
+    <string name="running_apps">The app is running</string>
+    <string name="finish_app">End the app</string>
+    <string name="back_to_home">Back to home</string>
+    
+    <!-- 200 Setting -->
+    <string name="set_success">Set successfully</string>
+    <string name="set_fail">Set failed</string>
+    <string name="please_input_password">Please enter the password</string>
+    <string name="delete">Delete</string>
+    <string name="show_type_fixed">Fixed PIN code</string>
+    <string name="set_type_fixed_pin">Set the fixed PIN code</string>
+    <string name="show_type_random">Random PIN code</string>
+    <string name="show_type_auto">Auto accept</string>
+    <string name="input_pin_random">Please input the PIN code showed in the screen</string>
+    <string name="input_pin_fixed">Please input the fixed PIN code</string>
+    <string name="setting_return">Back</string>
+    <string name="setting_personal">Personalization</string>
+    <string name="setting_group">Group</string>
+    <string name="setting_network">Network</string>
+    <string name="setting_time">Time</string>
+    <string name="setting_mapping">Screencast</string>
+    <string name="setting_record">Record</string>
+    <string name="setting_remote_control">Mythware ScreenCast</string>
+    <string name="setting_display">Display</string>
+    <string name="setting_system">System</string>
+    <string name="time_date">Date &#38; Time</string>
+    <string name="time_zone">Time Zone</string>
+    <string name="get_time_date_auto">Automatic date &#38; time</string>
+    <string name="date_y_m_d">%3$d/%2$d/%1$d</string>
+    <string name="use_internet_time">Sychronize with Internet time</string>
+    <string name="date_setting">Set date</string>
+    <string name="time_setting">Set time</string>
+    <string name="use_24_hours">Use 24-hour time</string>
+    <string name="use_internet_time_zone">Sychronize with Internet time zone</string>
+    <string name="get_time_zone_auto">Automatic time zone</string>
+    <string name="select_time_zone">Select time zone</string>
+    <string name="time_clock_13">13:00</string>
+    <string name="time_clock_pm_1">01:00 PM</string>
+    <string name="time_pm">%1$d:%2$s PM</string>
+    <string name="time_am">%1$d:%2$s AM</string>
+    <string name="name">Name</string>
+    <string name="modify_device_name">Change device name</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="latest_image">Recently used</string>
+    <string name="language">Language</string>
+    <string name="setting">Settings</string>
+    <string name="system">System</string>
+    <string name="local">Local</string>
+    <string name="ethernet">Wired network</string>
+    <string name="use_dhcp">Enable DHCP</string>
+    <string name="subnet_mask">Subnet mask</string>
+    <string name="subnet_mask_">Subnet mask:</string>
+    <string name="subnet_mask_lenght">Network prefix length</string>
+    <string name="network_prefix_length_text_">Network prefix length:</string>
+    <string name="gateway">Gateway</string>
+    <string name="gateway_">Gateway:</string>
+    <string name="dns_server">DNS server</string>
+    <string name="dns_server_1">DNS 1</string>
+    <string name="dns_server_1_">DNS1 :</string>
+    <string name="dns_server_2">DNS 2</string>
+    <string name="dns_server_2_">DNS2 :</string>
+    <string name="ethernet_config">Wired network configuration</string>
+    <string name="ethernet_config_pop">Configure wired network</string>
+    <string name="wlan">Wireless network</string>
+    <string name="wifi_connecting">Connecting...</string>
+    <string name="wifi_authenticating">Verificating...</string>
+    <string name="connected">Connected</string>
+    <string name="wifi_suspended">Paused</string>
+    <string name="not_ranged">Out of the range</string>
+    <string name="saved">Saved</string>
+     <string name="wifi_disabled_password_failure">There is a problem with verification</string>
+    <string name="ip_address">IP Address</string>
+    <string name="ip_address_">IP Address:</string>
+    <string name="cancel_saved">Forget</string>
+    <string name="cancel_saved_network">Forget the network</string>
+    <string name="modify_network">Change the network</string>
+    <string name="done">Done</string>
+    <string name="connect">Connect</string>
+    <string name="connect_wlan">Connect to WLAN</string>
+    <string name="connect_to_network">Connect to network</string>
+    <string name="is_delete_controler">Are you sure to delete?</string>
+    <string name="show_type_fixed_number">12345678</string>
+    <string name="show_type_fixed_number_prefix">PIN code:</string>
+    <string name="output_hdmi">HDMI output</string>
+    <string name="select_best_px_auto">Auto adpat</string>
+    <string name="power_saving">Power saving</string>
+    <string name="power_saving_prompt">Shut down in %1$ d minute(s) without signal output</string>
+    <string name="power_saving_prompt_no_use">Don\'t sleep without signal output</string>
+    <string name="x_minutes">%1$d minute(s)</string>
+    <string name="not_use">Disable</string>
+    <string name="hardware_version">Serial number</string>
+    <string name="update">Update</string>
+    <string name="reset">Reset</string>
+    <string name="reboot">Reboot</string>
+    <string name="reboot_devices">Restart the device</string>
+    <string name="shutdown">Shut down</string>
+    <string name="is_reboot">Are you sure to restart?</string>
+    <string name="is_shutdown">Are you sure to shut down?</string>
+    <string name="restore_factory_settings">Reset</string>
+    <string name="is_restore_factory_settings">Are you sure to reset?</string>
+    <string name="check_to_update">Update check</string>
+    <string name="download_update_auto">Automatically download update package automatically</string>
+    <string name="current_version">Current version number</string>
+    <string name="checking_update">Checking update...</string>
+    <string name="current_is_last_version">The current version is up to date</string>
+    <string name="find_new_version">New version is found</string>
+    <string name="download_update_now">Download update package now</string>
+    <string name="restart_update_now">Restart and update now</string>
+    <string name="continue_download">Continue to download</string>
+    <string name="update_power_on">Do not turn off the device power supply when updating</string>
+    <string name="update_apk_will_not_dowanload_to_phone">Update package will not be downloaded to your controller device</string>
+    <string name="update_apk_prompt">Update is only performed in the ScreenCast box. Your controller device will not download and update.</string>
+    <string name="several_seconds_restore_factory_settings">ClassCloud will reset in %1$d second(s)</string>
+    <string name="several_seconds_install_update">ClassCloud will update in %1$d second(s)</string>
+    <string name="can_not_connect_to_update_server">ClassCloud can\'t connect to the server for update</string>
+    <string name="connect_to_update_server_out_time">ClassCloud connecting to the server timed out</string>
+    <string name="not_full_space_to_download">Insufficient storage space of ClassCloud</string>
+    <string name="storage_not_write">Classroom AP is not writable</string>
+    <string name="not_have_update">No installable update available</string>
+    <string name="not_download_finish">The installation package has not been downloaded, please try to install again later.</string>
+    <string name="parse_error">Installation package parsing error</string>
+    <string name="close_wlan">Close WLAN</string>
+    <string name="confirm_close_wlan">Turning off WLAN will disconnect from the ScreenCast box, confirm to proceed?</string>
+
+    
+    <string name="wifi_ip_settings">IP settings</string>
+    <string name="wifi_ip_settings_static">Static</string>
+    <string name="wifi_ip_settings_invalid_ip_address">Please enter a valid IP address</string>
+    <string name="wifi_ip_settings_invalid_gateway">Please enter a valid gateway address</string>
+    <string name="wifi_ip_settings_invalid_dns">Please enter a valid DNS address</string>
+    <string name="wifi_ip_settings_invalid_submask">Please enter a valid submask</string>
+    
+    <string-array name="wifi_signal">
+        <item>Weak</item>
+        <item>Good</item>
+        <item>Well</item>
+        <item>Strong</item>
+    </string-array>
+    
+    <!-- 202 settings personal -->
+    <string name="Presupposition">Preset</string>
+    <string name="usb_folder_name">USB Drive </string>
+    <string name="local_folder_name">Local &gt;</string>
+    <string name="set_wallpaper">Set as wallpaper</string>
+    <string name="set_as_wallpaper">Set as wallpaper</string>
+    
+    <!-- 203 settings network -->
+    <string name="wifi_add_network">Adding other networks...</string>
+    <string name="wifi_ssid_">SSID:</string>
+    <string name="wifi_ssid_hint">Please enter the SSID</string>
+    <string name="wifi_security_">Security:</string>
+    <string-array name="wifi_security">
+        <item>None</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+    </string-array>
+    
+    <!-- 210 settings system -->
+    <string name="setting_security">Security</string>
+    <string name="password_protection">Administrator password</string>
+    <string name="modify_password">Change password</string>
+    <string name="verify_admin_password">Verify the administrator password</string>
+    <string name="input_admin_password_to_setting">Enter the administrator password</string>
+    <string name="input_admin_password_hint">Please enter the administrator password</string>
+    <string name="set_admin_password">Set the administrator password</string>
+    <string name="modify_admin_password">Change the administrator password</string>
+    <string name="password_">Password:</string>
+    <string name="original_password_">Old password:</string>
+    <string name="new_password_">New password:</string>
+    <string name="confirm_password">Confirm password:</string>
+    <string name="reminder">Reminder</string>
+    <string name="tip_">Reminder:</string>
+    <string name="password_tip">Password reminder:</string>
+    <string name="password_tip_hint">Please enter the password reminder</string>
+    <string name="input_password">Please enter the password</string>
+    <string name="input_password_again">Please re-enter the password</string>
+    <string name="input_original_password">Please enter the old password</string>
+    <string name="input_new_password">Please enter the new password</string>
+    <string name="input_new_password_again">Please re-enter the new password</string>
+    
+    <string name="incorrect_password">The password is incorrect, please re-enter</string>
+    <string name="different_password">Passwords inconsistent</string>
+    <string name="different_password_hint">The passwords are inconsistent, please re-enter</string>
+    <string name="incorrect_password_hint">The password is incorrect, please try again</string>
+    <string name="incorrect_original_password_hint">Old password is incorrect, please re-enter</string>
+    
+    
+
+    <!-- 300 home -->
+    <string name="back_not_work_annotation">Annotating now, unable to return</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="back_again_exit">Click Back button again to exit</string>
+    <string name="net_reconnected">Re-connect with the Screencast box</string>
+    
+    <string name="select_storage_location">Please select storage path</string>
+    <string name="u_disk_not_find">USB drive is not found</string>
+    <string name="cloud_disk_not_set">Classroom AP is not configured</string>
+    <string name="disk_message_tip">Available space is %1$s, capable to record %2$d hour(s) %3$d minute(s) of video</string>
+    <string name="disk_message_tip_no_hour">Available space is %1$s, capable to record %2$d minute(s) of video</string>
+    
+    <string name="toggle">Switch</string>
+    <string name="record_rec">Record</string>
+    <string name="short_video">Moments</string>
+    <string name="is_disconnect_current_device">Are you sure to disconnect?</string>
+    <string name="standby_options">Standby Option</string>
+    <string name="disconnect_current">Disconnect</string>
+    <string name="disconnect_current_and_standby">Disconnect and standby</string>
+    <string name="is_stop_record_and_save">Are you sure to finish and save the record?</string>
+    <string name="record_go_on">Continue</string>
+    <string name="record_stop">Stop</string>
+    <string name="record_pause">Pause</string>
+    <string name="record_space_not_enough">Storage space is running short\nexpecting to record %d minute(s)</string>
+    <string name="find_no_record_device">No storage device detected</string>
+    <string name="record_device_not_write">The storage device is not writable</string>
+    <string name="record_device_not_full">Insufficient space of the storage device</string>
+    
+    <string name="share_has_start">Screen broadcast has launched</string>
+    <string name="share_has_stop">Screen broadcast has stopped</string>
+    <string name="share_error_failed">Screen broadcast failed</string>
+    <string name="share_error_no_create_group">The group was not created, screen broadcast can\'t be launched</string>
+    <string name="share_error_no_subgroup">No members are in the group, screen broadcast can\'t be launched</string>
+    <string name="share_error_no_online_subgroup">Group members are not online, screen broadcast can\'t be launched</string>
+    
+    <string name="cannot_goto_setting_when_annotation">Annotating now, unable to set</string>
+    <string name="cannot_goto_setting_when_sharing">Broadcasting now, unable to set</string> 
+    <string name="cannot_goto_setting_when_recording">Recording now, unable to set</string>
+    <string name="cannot_goto_setting_when_receiving_sharing">Receiving screen broadcast, unable to set</string>
+    
+    <string name="cannot_goto_switch_screen_when_sharing">Broadcasting now, unable to switch</string>
+    <string name="cannot_goto_switch_layout_when_sharing">Broadcasting now, unable to change layout</string>
+    <string name="cannot_goto_gallery_when_sharing">Broadcasting now, unable to check gallery</string>
+    
+
+    <!-- switch mapping -->
+    <string name="mapping_selected_num">%1$d / 4</string>
+    <string name="mapping_select_max">The display numbers has reached to maximum</string>
+    <string name="remove_all_showing_mapping">All views have been removed</string>
+    <string name="switch_screen_file_cast_not_exist">The file doesn\'t exist</string>
+    <string name="switch_screen_offline_tip">The device is offline, unable to cast.</string>
+    <string name="switch_screen_auth_tip">Camera permission changed, unabloe to cast.</string>
+    
+    
+    <string name="stick">Stick on Top</string>
+    <string name="cancel_stick">Cancel stick</string>
+    <string name="remove">Remove</string>
+    <string name="please_input_new_name">Please enter the new name</string>
+
+    
+    <!-- short video -->
+    <string name="press_to_record">Hold to start recording</string>
+    <string name="share">Share</string>
+    <string name="re_record">Re-record</string>
+    <string name="x_seconds">%1$d second(s)</string>
+    <string name="previewing">Previewing...</string>
+    <string name="initialization_failed">Initialize failed!</string>
+    <string name="record_too_short_to_play">Recording time is too short to play</string>
+    <string name="delete_complete">Delete successfully</string>
+    <string name="delete_all_failed">Clear failed</string>
+
+    
+    <!-- snapshot -->
+    <string name="has_selected">Selected</string>
+    <string name="select_all">Select all</string>
+    <string name="share_to">Share to</string>
+    <string name="fail_to_share">Share failed</string>
+    <string name="share_quantity_limit">The sharing number should be less than %1$d</string>
+    <string name="cancel_select_all">Deselect all</string>
+    <string name="snapshot_video">Snapshot/Moments</string>
+    <string name="snapshot_fail">Receive snapshot failed</string>
+    <string name="snapshot_success_local_disk">The snapshot has been saved to the local</string>
+    <string name="snapshot_success_u_disk">The snapshot has been saved to the local and USB drive</string>
+    <string name="snapshot_success_cloud_disk">The snapshot has been saved to the local and Classroom AP</string>
+    <string name="is_delete_file">Are you sure to delete?</string>
+    <string name="no_way_to_share">No app available to share</string>
+    <string name="sorry_to_share_picture_and_video">Video and picture can not be shared together in the meantime</string>
+    <string name="sorry_to_share_videos">Only one video can be shared at a time</string>
+    
+        
+    <!-- 400 gallery -->
+    <string name="usb_disk">USB Drive</string>
+    <string name="cloud_storage">Classroom AP</string>
+    <string name="local_resource">Local resource</string>
+    <string name="select">Select</string>
+    <string name="exit">Exit</string>
+    <string name="confirm_delete_image">Are you sure to delete this picture?</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="date_format">MM/dd/yyyy</string>
+    <string name="exit_select">Cancel</string>
+    <string name="selected">Selected</string>
+    <string name="selected_num">Select (%1$d)</string>
+    <string name="previous_page">Previous</string>
+    <string name="next_page">Next</string>
+    <string name="back">Back</string>
+    <string name="downloading">Downloading </string>
+    <string name="prepare_data">Preparing the file </string>
+    <string name="no_usb_tip">USB drive is not found!</string>
+    <string name="select_tip">Please select the picture first!</string>
+    <string name="download_sucess">Download successfully</string>
+    <string name="redownload">Re-downloading...</string>
+    <string name="download_fail_title">%1$d items download failed</string>
+    <string name="no_usb">USB drive is not found</string>
+    <string name="no_cloud">Classroom AP is not configured</string>
+    <string name="no_media">No content</string>
+    <string name="play_error">Play video error</string>
+    <string name="download_failed_storage_full">Disk space is full, download failed</string>
+    <string name="download_failed_disk_unmount">Disk is not mounted, download failed</string>
+    <string name="download_failed_disk_unwrite">Disk not writable, download failed</string>
+    <string name="download_failed_path_is_not_exist">The path doesn\'t exist, download failed</string>
+    
+    
+    <string name="all_select">Select All</string>
+    <string name="cancel_all_select">Deselect All</string>
+    <string name="download_to_usb">Download to USB drive</string>
+    <string name="download_to_local">Download to local</string>
+    
+    
+    <!-- 500 annotation -->
+    
+	<string name="imageView_description">Edu-Class</string>
+    <string name="annotation_graph_finish">Done</string>
+    <string name="annotation_select_delete">Delete</string>
+    <string name="annotation_select_cancel">Cancel</string>
+    <string name="progress_save">Saving&#8230;</string>
+    <string name="annotation_aotu_clean"> Auto erase</string>
+    <string name="annotation_history_close">Close</string>
+    <string name="annotation_history">Annotation in class</string>
+    <string name="annotation_back_show">Exit</string>
+    <string name="annotation_start_aotu_clean">Handwriting auto-clear feature has been enabled</string>
+    <string name="annotation_stop_aotu_clean">Handwriting auto-clear feature has been disabled</string>
+        
+    
+    <!-- 600 groups -->
+    <string name="confirm_countdown">OK (%1$d s)</string>
+    <string name="rename">Rename</string>
+    <string name="group_dissolve">Dissolve group</string>
+    <string name="group_join_pin">Group verification code: %1$s</string>
+    <string name="group_delete">Delete</string>
+    <string name="group_exit">Quit group</string>
+    <string name="group_exit_tip">Are you sure to leave the group %1$s?</string>
+    <string name="group_tip1">No device in this group</string>
+    <string name="group_tip2">Click to join the group (%1$d)</string>
+    <string name="group_tip3">No group available</string>
+    <string name="group_tip5">The devices joined in the group can view the content broadcast from the main screen.</string>
+    <string name="group_create_input_name">Please enter the group name</string>
+    <string name="group_join">Join this group</string>
+    <string name="group_join_devices">Devices joined (%1$d)</string>
+    <string name="group_rename">Rename the group</string>
+    <string name="group_device_rename">Rename this device</string>
+    <string name="group_remove_device">Remove this device</string>
+    <string name="group_remove_device_tip">Are you sure to remove this device %1$s?</string>
+    <string name="group_dissolve_tip">Are you sure to dissolve this group?</string> 
+    <string name="group_pin_tip">Please enter the group verification code</string>
+    <string name="group_pin_wrong_tip">Verification code is wrong, please try again</string>
+    <string name="group_pin_wrong_tip2">Your partner is not responding, please check the network</string>
+    <string name="group_pin_wrong_tip3">The group you select has expired</string>
+    
+    
+    <!--  700 camera  -->
+    <string name="telecamera_list">Camera List</string>
+    <string name="position_list">Camera position list (%1$d)</string>
+    <string name="position">Camera position</string>
+    <string name="position_list_1">Camera position list</string>
+    <string name="add_camera_stand">Add camera position</string>
+    <string name="add_camera_stand_for_button">Add camera position</string>
+    <string name="select_telecamera_list">Select camera</string>
+    <string name="delete_all">Clear</string>
+    <string name="network_camera">IP camera</string>
+    <string name="telecamera">Camera</string>
+    <string name="add_telecamera">Add camera</string>
+    <string name="edit_telecamera">Edit camera</string>
+    <string name="edit_position">Change camera position name</string>
+    <string name="delete_telecamera">Delete camera</string>
+    <string name="delete_position">Are you sure to delete "%s"?</string>
+    <string name="add_telecamera_stand">Add camera position</string>
+    <string name="is_delete_all_telecamera_stand">Are you sure to delete all camera positions?</string>
+    <string name="is_save_the_position_change">The camera position has changed, are you sure to save it?</string>
+    
+    <string name="account">Account</string>
+    <string name="password">Password</string>
+    <string name="add_camera_tip">Adding the camera, please enter the account and password</string>
+    <string name="modify_camera_tip">Configuring the camera, please enter the account and password</string>
+    <string name="please_input_account_hint">Please enter the account</string>
+    <string name="please_input_password_hint">Please enter the password</string>
+    
+    <string name="add">Add</string>
+    <string name="modify_name">Change name</string>
+    
+    <string name="ipc_camera_error_invalid_username_password">Incorrect account or password, please try again</string>
+    <string name="ipc_camera_error_not_online">Camera is offline</string>
+    <string name="ipc_camera_error_device_not_find">Camera is not found</string>
+    <string name="ipc_camera_error_device_had_bound">Camera has been bound</string>
+    <string name="ipc_camera_error_device_position_full">The preset position number has reached to maximum</string>
+    <string name="ipc_camera_error_device_position_not_find">Î´ÕÒµ½ÉãÏñ»ú»úÎ»</string>
+
+    <string name="please_add_the_camera">Add camera</string>
+    <string name="you_add_no_camera">No Camera Available</string>
+    <string name="adjust_camera">Adjust camera</string>
+    <string name="save">Save</string>
+    <string name="searching_for_camera">Searching the camera£¬please wait...</string>
+    <string name="not_getting_a_preview_screen">Preview image is not obtained</string>
+    <string name="camera_permissions_have_been_changed">Camera permission has changed</string>
+    <string name="camera_permissions_have_been_changed_1">Camera permission has changed, please re-obtain on Camera List page.</string>
+    <string name="camera_offline">Camera is offline</string>
+    <string name="modify_faild">Change failed</string>
+    <string name="modify_success">Change successfully</string>
+    <string name="delete_faild">Delete failed</string>
+    <string name="select_position">Select camera position</string>
+    <string name="adjust_position">Adjust camera position</string>
+    <string name="regain_system_permissions">Re-obtain the permission</string>
+    <string name="please_input_camera_name">Please enter the camera name</string>
+    <string name="please_input_position_name">Please enter the camera position name</string>
+    <string name="position_name_repeated">Camera position names are duplicated, please re-enter</string>
+    <string name="delete_position_1">Are you sure to delete this camera position?</string>
+    
+	
+	<!-- 800 record -->
+    <string name="clouddisk_storage">Classroom AP storage</string>
+    <string name="no_clouddisk">No Classroom AP available</string>
+    <string name="clouddisk_capacity_prefix">Space:</string>
+    <string name="select_clouddisk">Please select the Classroom AP</string>
+    <string name="verify_clouddisk">Adding CloudCloud disk requires verifying the account and password</string>
+    <string name="clouddisk_account">Account:</string>
+    <string name="clouddisk_account_hint">Please enter the account</string>
+    <string name="clouddisk_password_hint">Please enter the password</string>
+    <string name="clouddisk_password_error">Incorrect account or password, please try again</string>
+    <string name="clouddisk_delete_title">Delete the Classroom AP</string>
+    <string name="clouddisk_delete_content">Are you sure to delete %1$s ?</string>
+    <string name="clouddisk_no_tips">No Classroom AP found</string>
+    
+    <!-- ↓↓↓↓↓↓↓↓↓ 1100  v5迭代一期欢迎主题 ↓↓↓↓↓↓↓↓↓-->
+    <string name="showing_welcome_theme">Showing welcome theme....</string>
+    <string name="play_music">Play music</string>
+    <string name="pause_music">Pause music</string>
+    <string name="exit_welcome_theme">Exit welcome theme</string>
+    <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+    
+    <!--3000 about -->
+    <string name="about_system_version">Serial number</string>
+    <string name="gallery">Gallery</string>
+    <string name="about_cast">Mythware ScreenCast</string>
+    <string name="about_switch">Mythware ScreenCast</string>
+    <string name="cast_mythware">Mythware ScreenCast</string>
+    <string name="wizard_setfinish_switch_describe">You can select the screen source to be displayed from the source list. The ScreenCast box provides various screen layout, supports cast protocols such as Miracast, Airplay, Mythware wireless protocol, IP camera, and displays multimedia files such as picture, video, Word, Excel and PDF. What\'s more, the screens of multiple ScreenCast boxes in the network can be displayed on the main screen.</string>
+    <string name="wizard_setfinish_snapshot_describe">The screen image can be saved to USB drive, Classroom AP, and ScreenCast App.</string>
+    <string name="wizard_setfinish_record_describe">You can use the Record feature. The recorded video and audio will be saved to the USB drive or Classroom AP. You can also download the recorded file to the ScreenCast app.</string>
+    <string name="wizard_setfinish_share_describe">If you have equipped multiple ScreenCast boxes, you can relay the main screen to the other screens with ScreenCast boxes at any time, or display the screens of other ScreenCast boxes on the main screen.</string>
+    <string name="wizard_setfinish_annotation_describe">You can use the Annotation feature to annotate on the screen at any time; you can also do it in the ScreenCast app, and the annotations are fully synchronized.</string>
+    <string name="wizard_setfinish_cast_describe">On devices that don\'t support Miracast and Airplay, or devices that don\'t work well with Miracast, you can cast the view and sound of your device to the screen through the Cast My Device feature in the ScreenCast app.</string>
+    <string name="download">Download</string>
+
+
+    
+    
+    <!-- 3100 Logins -->
+    <string name="login_prompt1">Please make sure your source device and ScreenCast box are in the same network environment</string>
+    <string name="none_device_find">No available devices found</string>
+    <string name="choose_device_connect">Please select the device to  connect</string>
+    <string name="login_about">About</string>
+    <string name="login_pin_erroe">Incorrect PIN code</string>
+    <string name="control_castbox">Control ScreenCast Box</string>
+    <string name="sender_local_screen">Cast My Device</string>
+    <string name="sender_local_screen_failed">Cast failed!</string>
+    <string name="stop_local_screen">Stop casting</string>
+    <string name="screen_recording">Screen recording</string>
+    <string name="recording_quality">Recording quality</string>
+    <string name="recording_1080p">Recording file size is about 80MB/min</string>
+    <string name="recording_720p">Recording file size is about 50MB/min</string>
+    <string name="recording_resolution">%dP</string>
+    <string name="unsupportprivate">ScreenCast box doesn\'t support cast with private protocol</string>
+    <string name="screencapture_init_failed">Initialize cast failed!</string>
+    <string name="operation_exception">Abnormal operation</string>
+    <string name="create_virtualDisplay_failed">Cast the screen failed!</string>
+    <string name="disconnect_screencast_sender">You are using another way to cast your screen, Mythware ScreenCast will be disconnected.</string>
+    <string name="dismatch_server_min_version">The ScreenCast box version is too low, please update to the latest version.</string>
+    <string name="dismatch_controller_min_version">The controller App version is too low, please update to the latest version.</string>
+    <string name="system_information">System Information</string>
+    <string name="mode">Model</string>
+    <string name="system_version">System version</string>
+    <string name="operation_frequent">You\'re operating too frequently, please try later!</string>
+    <string name="picture_in_picture">Picture in Picture</string>
+    <string name="stop_picture_in_picture">Stop</string>
+    <string name="stop_picture_in_picture_2">Are you sure to stop Picture in Picture?</string>
+    <string name="pls_select_pip">Please select the source device</string>
+    <string name="pls_select_rebroadcast">Please select the source device to relay</string>
+    <string name="rebroadcast">Relay</string>
+    <string name="select_floating_picture">Please select the floating view</string>
+    <string name="rebroadcast_screen_to">Device List</string>
+    <string name="stop">Stop</string>
+    <string name="password_tip_changed">Security policy changed</string>
+    <string name="no_license">This function is not authorized, please contact distributor for details.</string>
+    
+    
+    <string name="screen_recording_quality">Screen record quality</string>
+    <string name="security_policy">Security policy</string>
+    <string name="is_accept_relay">"%s" requests to relay, agree or not?</string>
+    <string name="stop_relay">Receiving relay, continue when it stops. Are you sure to stop?</string>
+    <string name="need_permit">Confirmation needed</string>
+    <string name="reject">Deny</string>
+    <string name="accept">Allow</string>
+    <string name="stop_all">Stop all relaying</string>
+    <string name="rebroadcasting">Relaying</string>
+    <string name="no_rebroadcast">Not relaying</string>
+    <string name="waiting_confirm">Authorizing...</string>
+    <string name="no_rebroadcast_devices">No other devices found</string>
+    <string name="relay_err_init_failed">"%s" failed to receive</string>
+    <string name="relay_err_reject">"%s" rejected to receive</string>
+    <string name="relay_err_receive_relay">"%s" is busy, failed to receive</string>
+    <string name="relay_err_sending_relay">"%s" is busy, failed to receive</string>
+    <string name="relay_reject">Never receive</string>
+    <string name="connecting">Connecting</string>
+    <string name="recode_pause_tips">Recording paused</string>
+    <string name="source_file_is_not_exist">The source file doesn\'t exist</string>
+    
+    
+    <!--2001 need translate -->
+    <string name="add_success">Add successfully</string>
+    <string name="position_list_empty">The camera position is not set</string>
+    <string name="rebroadcast_notice">Receiving the relay of "%s"</string>
+    <string name="group_tip0">Group</string>
+    <string name="group_tip4">The host can create a group and broadcast the main screen to the group screen, or display the group screen on the main screen.</string>
+    <string name="group_create">New Group</string>
+    <string name="net_can_not_work">Unable to connect to ScreentCast CloudBox, please check the network connection</string>
+    <string name="network_exception">Unable to connect to ScreentCast CloudBox, please check the network connection</string>
+    <string name="net_disconnected">Unable to connect to ScreentCast CloudBox, please check the network connection</string>
+
+	<!--2002 tmp -->
+    <string name="remove_screen_source">Remove from device source</string>
+    <string name="scale_notice">"%s" has zoomed in, click to return</string>
+    <string name="no_select_position">Camera position is not selected</string>
+    <string name="save_position_failed">Failed to save camera position</string>
+    <string name="camera_offline_toast">Failed to connect to the camera, please try again</string>
+    <string name="please_input_video_source_name">Please enter the name of video source</string>
+    <string name="broadcast">Broadcast</string>
+    <string name="wifi_ip_settings_">IP Settings :</string>
+    
+    <string name="receiving_broadcast">Receiving broadcast now</string>
+    <string name="now_annotation">Annotating now, unable to use this feature</string>
+    <string name="now_broadcast_screen">Broadcasting now, unable to use this feature</string>
+    <string name="now_receiving_broadcast">Receiving broadcast now, unable to use this feature</string>
+    <string name="now_recoding">Recording now, unable to use this feature</string>
+    
+    <string name="no_online_preview">Online preview is not supported</string>
+    <string name="save_position_success">Saved to %1$s</string>
+    <string name="recode_pause_text">Pause</string>
+    <string name="path_is_not_exist">The path doesn\'t exist</string>
+    <string name="network_exception_download_failed">Network abnormal, download failed</string>
+    <string name="download_failed">Download failed</string>
+    <string name="cancel_broadcast">Cancel sharing</string>
+    <string name="casting">Stop Casting</string>
+    
+    <!--v5-->
+    <string name="application_management">Application Management</string>
+    <string name="version_">Version:</string>
+    <string name="total">Total</string>
+    <string name="application_1">Application</string>
+    <string name="data">Data</string>
+    <string name="delete_data">Delete data</string>
+    <string name="delete_app_data">Delete app data</string>
+    <string name="delete_app_data_notice">The application data can not be recovered after deletion, \n including all files, settings, accounts, databases, etc.</string>
+    <string name="cache">Cache data</string>
+    <string name="clear_cache">Clear cache</string>
+    <string name="push_flow">Stream</string>
+    <string name="start_push_flow">Start streaming</string>
+    <string name="stop_push_flow">Stop streaming</string>
+    <string name="rtmp_connect_reconnect">Abnormal streaming connection, try to reconnect to the streaming server</string>
+    <string name="rtmp_connect_disconnect">Failed to connect to the streaming server</string>
+    <string name="rtmp_server">RTMP server</string>
+    <string name="no_setup">Not configured yet</string>
+    <string name="no_setup_push_flow_server">Streaming server not configured yet</string>
+    <string name="go_setup">Go to Settings</string>
+    <string name="setup_rtmp_server">Configure RTMP server</string>
+    <string name="address_">Address:</string>
+    <string name="secret_key_">Key:</string>
+    <string name="install_now">Install now</string>
+    <string name="apk_install_success">Install successfully</string>
+    <string name="apk_install_failed">Install failed</string>
+    <string name="apk_installing">Installing...</string>
+    <string name="server_setting_no_enter">This setting can not be done,because the same setting is doing on the master display.</string>
+    <string name="clear_background_application">Close Running App</string>
+    <string name="alreay_cancel">Canceled</string>
+    <string name="toolbar">Sidebar</string>
+    <string name="auto_hide">Auto hide</string>
+    <string name="always_display">Always show</string>
+    
+    
+    <string name="disconnected">Unconnected</string>
+    <string name="zxybSource">Smartpen</string>
+    <string name="zxybClassNumber">%1$d / %2$d people</string>
+    <string name="zxybConfigure">Configuration</string>
+    <string name="zxybTeacher">Teacher Smartpen</string>
+    <string name="zxybTeacher_add">Add teacher Smartpen</string>
+    <string name="input_zxyb_name">Please input the smartpen name</string>
+    <string name="input_zxyb_id">Please input the Smartpen ID</string>
+    <string name="input_zxyb_class_name">Please input the class name</string>
+    <string name="zxybTeacher_modify">Edit teacher Smartpen</string>
+    <string name="zxyb_delete">Delete Smartpen</string>
+    <string name="zxybStudent">Student Smartpen</string>
+    <string name="zxybServerConfigure">Server configuration</string>
+    <string name="zxybServerPortError">Server port unavailable</string>
+    <string name="zxyb_enth_ip">LAN: %1$s</string>
+    <string name="zxyb_wlan_ip">WLAN: %1$s</string>
+    <string name="zxybServerPort_">Port:</string>
+    <string name="inputPortNumber">Please input the port</string>
+    <string name="inputPortNumberError">Please input the correct port</string>
+    <string name="showName">Show the name</string>
+    <string name="showNameOnBoad">Show the username on the board</string>
+    <string name="showNumber">Display number</string>
+    <string name="showNumberTip">Display %1$d pieces of Smartpens simultaneously at most</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="zxyb_max_show_num">Reach the top limit of display number</string>
+    <string name="zxyb_name_repeat">Duplicate name</string>
+    <string name="zxyb_id_repeat">Duplicate Smartpen ID</string>
+    <string name="name_">Name:</string>
+    <string name="zxyb_id_">Smartpen ID:</string>
+    <string name="zxyb_teacher_delete_tip">Are you sure to delete this Smartpen?</string>
+    <string name="zxyb_class_delete_tip">Are you sure to delete this class?</string>
+    <string name="zxyb_student_delete_tip">Are you sure to delete the student(s) selected?</string>
+    <string name="import_class">Import Class</string>
+    <string name="create_class">New Class</string>
+    <string name="zxyb_teacher_not_add">Smartpen not added yet</string>
+    <string name="zxyb_class_not_add">Class not added yet</string>
+    <string name="zxyb_student_not_add">Students not added yet</string>
+    <string name="zxyb_import_tip">Support for importing the student list in Excel 97-2003, but some rules should be followed: the first column is the student name (up to 30 characters); the second column is the Smartpen ID(up to 30 characters); Either student names or Smartpen IDs should not be duplicate; Click the "Save template" button to save the template file to the root directory of the USB flash drive.</string>
+    <string name="class_name">Class name</string>
+    <string name="class_delete">Delete class</string>
+    <string name="select_class_list">Please select student list</string>
+    <string name="class_list_import_format">Student list import format</string>
+    <string name="check_import_format">View import format</string>
+    <string name="save_import_format">Save template</string>
+    <string name="zxyb_import_result">Import result</string>
+    <string name="zxyb_import_total">%1$d pieces succeeded, %2$d pieces failed</string>
+    <string name="zxyb_import_error_miss_name">In Row %1$d,the student name is missing</string>
+    <string name="zxyb_import_error_miss_id">In Row %1$d,the Smartpen ID is missing</string>
+    <string name="zxyb_import_error_repeat_name">In Row %1$d,the student name is duplicate</string>
+    <string name="zxyb_import_error_repeat_id">In Row %1$d,the Smartpen ID is duplicate</string>
+    <string name="zxyb_import_error_name_over_flow">In Row %1$d,the student name is overlong</string>
+    <string name="zxyb_import_error_id_over_flow">In Row %1$d,the Smartpen ID is overlong</string>
+    <string name="zxyb_import_error_num_over_flow">The Row %1$d exceeds the maximum student number</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="orientation">Orientation</string>
+    <string name="compare">Compare</string>
+    <string name="clean">Clear</string>
+    <string name="add_student">Add student</string>
+    <string name="delete_student">Delete student</string>
+    <string name="modify_student">Edit student</string>
+    <string name="class_not_exist">Class not exist</string>
+    <string name="class_has_delete">Class deleted</string>
+    <string name="class_has_unselected">Class over</string>
+    <string name="zxyb_large">Large</string>
+    <string name="zxyb_middle">Medium</string>
+    <string name="zxyb_small">Small</string>
+    <string name="zxyb_vertical">Vertical</string>
+    <string name="zxyb_horizontal">Horizontal</string>
+    <string name="zxyb_clean_draw">Clear handwriting</string>
+    <string name="zxyb_clean_draw_tip">Are you sure to clear all the handwriting?</string>
+    <string name="zxyb_show_item_over_flow">Reached to the maximum display number</string>
+    <string name="zxyb_device_no_choose">Device unable to select</string>
+    <string name="zxyb_show_no_forward">This is the first one</string>
+    <string name="zxyb_show_no_backward">This is the last one</string>
+    <string name="zxyb_teacher_num_over_flow">Teacher number reached to the top limit</string>
+    <string name="zxyb_class_num_over_flow">Class number reached to the top limit, unable to create new class</string>
+    <string name="zxyb_student_num_over_flow">Student number in class reached to the top limit</string>
+    <string name="zxyb_student_compare_tip">Please select the students to compare (%1$d/%2$d)</string>
+    <string name="zxyb_student_not_online">Student offline</string>
+    <string name="zxyb_student_no_auth">Student has no authorization</string>
+    <string name="zxyb_select_class_no_enough_auth_tip">The student number exceeded the maximum authorized number, and the Smartpens of %1$d student(s) can not display handwriting.</string>
+    <string name="import_class_notice">Importing student information...</string>
+    <string name="zxyb_compare_no_student_tip">Please select the students to compare</string>
+    
+    <string name="delete_app_data_failed">Delete application data failed</string>
+    <string name="delete_app_cache_failed">Delete application cache failed</string>
+    <string name="zxyb_selected_confirm">Application</string>
+    <string name="zxyb_device_not_exist">Device not exist</string>
+    <string name="zxyb_class_rename">Rename class</string>
+    <string name="zxyb_class_delete_title_notice">%1$d students selected</string>
+    <string name="class_has_exist">Class existed</string>
+    <string name="connect_server_failed">Connect to the server failed</string>
+    <string name="invalid_file_type">Invalid file type</string>
+    <string name="zxyb_server_port_error">Server port of Smartpen unavailable</string>
+    <string name="zxyb_import_parse_failed">Unable to parse this file, please check if the file is correct</string>
+    <string name="zxyb_student_click_no_auth">Students are not authorized, unable to display on the big screen</string>
+    <string name="zxyb_student_click_no_online">Student is offline, unable to display on the big screen</string>
+    <string name="clear_app_notice">Cleared to the best state</string>
+    <string name="check_update_failed_tip">Network abnormal, please reconnect</string>
+    <string name="zxyb_export_class_success_tip">Saved to the root directory of the USB drive</string>
+    <string name="zxyb_export_class_failed_tip">Failed to save the template file. Please check if the USB drive works normally.</string>
+    <string name="zxyb_teacher_max_add_tip">Teacher number reached the maximum, unable to be added</string>
+    <string name="zxyb_student_max_add_tip">Student number reached the maximum, unable to be added</string>
+    <string name="zxyb_class_max_add_tip">Class number reached the maximum, unable to be added</string>
+    <string name="setup_push_flow_tip">Streaming now, unable to change RTMP server configuration</string>
+    <string name="zxyb_update_license_failed_tip">Unable to connect to the server, update failed</string>
+    <string name="zxyb_update_success_tip">Updated</string>
+    
+    <!-- UIBC -->
+    <string name="uibc_turn_on">Enable UIBC</string>
+    <string name="uibc_turn_on_tip">UIBC enabled</string>
+    <string name="uibc_turn_off">Disable UIBC</string>
+    <string name="uibc_turn_off_tip">UIBC disabled</string>
+    
+    <string name="extranet_setting">Extranet Settings</string>
+    <string name="wireless_ap">Wireless AP</string>
+    <string name="frequency_band">Frequency band</string>
+    <string name="working_mode">Working mode</string>
+    <string name="channel">Channel</string>
+    <string name="frequency_band_width">Frequency bandwidth</string>
+    <string name="wireless_network_name">SSID</string>
+    <string name="set_wireless_password">Set Wireless Password</string>
+    <string name="follow_device_name">Same as Screencast name</string>
+    <string name="custom_name">Customized name</string>
+    <string name="encryption_type">Encryption type</string>
+    <string name="wireless_password">Password</string>
+    <string name="net_visibility">Network visibility</string>
+    <string name="broadcast_ssid">Broadcast SSID</string>
+    <string name="hide_ssid">Hide SSID</string>
+    <string name="auto">Automatic</string>
+    <string name="none">None</string>
+    <string name="encryption_wap2">WPA2-PSK</string>
+    <string name="encryption_mix">WPA-PSK/WPA2-PSK mixed</string>
+    <string name="harddisk">HDD</string>
+    <string name="internal_hdd">Internal HDD</string>
+    <string name="no_find_hdd">Internal HDD not found</string>
+    <string name="format_hdd">Format HDD</string>
+    <string name="hdd_formating">Formatting...</string>
+    <string name="formatting_hdd_notice">Formatting HDD now, please try later</string>
+    <string name="format_hdd_failed">HDD format failed</string>
+    <string name="need_format_hdd_to_use">Format is necessary before use</string>
+    <string name="format_hdd_notice">All the data will be deleted after format,\n are you sure to format ?</string>
+    <string name="setting_display_v7">Input&#038;Output</string>
+    <string name="input_hdmi">HDMI Input</string>
+    <string name="resolution">Resolution</string>
+    <string name="display_mode">Display mode</string>
+    <string name="hdmi_1">HDMI 1</string>
+    <string name="hdmi_2">HDMI 2</string>
+    
+    <string name="modfiy_resolution_notice">*After modifying the resolution, you need to restart the system to take effect</string>
+    <string-array name="hdmi_input_mode">
+        <item>Always display</item>
+        <item>Display under the signal</item>
+        <item>Disable</item>
+    </string-array>
+    <string-array name="hdmi_display_mode">
+        <item>Mirror mode</item>
+        <item>Single-screen mode</item>
+    </string-array>
+    
+    <string-array name="ap_ssid_name">
+        <item>Same as Screencast name</item>
+        <item>Customized name</item>
+    </string-array>
+    
+    <string-array name="ap_enc_type">
+        <item>None</item>
+        <item>WPA2-PSK</item>
+        <item>WPA-PSK/WPA2-PSK mixed</item>
+    </string-array>
+    
+    <string-array name="ap_ssid_visibility">
+        <item>Broadcast SSID</item>
+        <item>Hide SSID</item>
+    </string-array>
+    
+    <string name="turn_on_wlan">Enable Wi-Fi</string>
+    <string name="wlan_sta">Wireless network (STA)</string>
+    
+    <string name="snapshot_success_hdd_disk">屏幕快照已经存储至硬盘和本地</string>
+    
+    <string name="login_exceed_limit">连接数量达到上限</string>
+    <string name="bind_info">绑定信息</string>
+    <string name="centralized_control_manager_system">集控管理系统</string>
+    <string name="no_bind_info">暂未绑定</string>
+    <string name="bind">绑定</string>
+    <string name="free_bind">解绑</string>
+    <string name="dialog_bind_title">绑定Mythware ID弹窗</string>
+    <string name="mythware_id_failed">Mythware ID错误</string>
+    <string name="mythware_id_no_find">未找到Mythware ID</string>
+    <string name="confirm_bind_this_mythware_id">确定要绑定该Mythware ID吗？</string>
+    <string name="bind_success">绑定成功</string>
+    <string name="bind_failed">绑定失败</string>
+    <string name="confirm_unbind">确定要解绑吗？</string>
+    <string name="unbind_success">解绑成功</string>
+    <string name="unbind_failed">解绑失败</string>
+    <string name="ccms_update_notice">根据网络下载速度，系统升级可能需要几分钟到数十分钟，在升级过程中，请不要操作设备，并保持设备正常供电</string>
+    <string name="auto_update">自动升级</string>
+    <string name="update_second">升级(%1$d)</string>
+    <string name="give_up">放弃</string>
+    
+    <string name="screen_shot_busy_notice">正在截屏,请稍后</string>
+    
+</resources>

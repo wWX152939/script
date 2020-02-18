@@ -1,0 +1,11 @@
+public Signal sigHDKTSigninFromStudent = new Signal(tagHDKTSigninFromStudent.class, String.class);
+public Signal sigHDKTQuestionSelectStudent = new Signal(tagHDKTQuestionSelectStudent.class, String.class);
+public Signal sigHDKTWeixinVisitorLogin = new Signal(tagHDKTWeixinVisitorLogin.class, String.class);
+public Signal sigHDKTSignin = new Signal(tagHDKTSignin.class, String.class);
+public Signal sigHDKTLessonHeader = new Signal(tagHDKTLessonHeader.class, String.class);
+public Signal sigHDKTLessonQuestion = new Signal(tagHDKTLessonQuestion.class, String.class);
+public Signal sigHDKTStudentDeviceUpdate = new Signal(tagHDKTStudentDeviceUpdate.class, String.class);
+public Signal sigHDKTQuestionFileUpload = new Signal(tagHDKTQuestionFileUpload.class, String.class);
+public Signal sigHDKTLessonSyncOver = new Signal(tagHDKTLessonSyncOver.class, String.class);
+public Signal sigHDKTQuestionWriteSet = new Signal(tagHDKTQuestionWriteSet.class, String.class);
+public Signal sigHDKTUpdateLessonTeacher = new Signal(tagHDKTUpdateLessonTeacher.class, String.class);

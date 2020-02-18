@@ -68,7 +68,7 @@ function generate()
 	echo -e "@Override\n" >> $fileName
 	echo -e "public void getDataOnResult(int type, String responseBody) {\n" >> $fileName
 	echo -e "if (responseBody == null) {\n" >> $fileName
-	echo -e "setErrMsg(cloudInterface);\n" >> $fileName
+	echo -e "setErrMsg(cloudInterface, tag$1""Response.class, tag$1);\n" >> $fileName
 	echo -e "return;\n}\n" >> $fileName
 #	echo -e "tag$1""Response info = (tag$1""Response) DataUtils.getObject(tag$1""Response.class, responseBody);" >> $fileName
 #	echo -e "info.Caller = tag$1.Caller;" >> $fileName
@@ -80,7 +80,7 @@ function generate()
 #	echo -e "}\n}\n});\n" >> $fileName
 	echo -e "handleResponseEvent(cloudInterface, tag$1, responseBody, tag$1""Response.class);" >> $fileName
 	echo -e "}\n});\n" >> $fileName
-	echo -e "networkAsyncTask.setUrl(mUrlMap.get(tag$1.MethodName)).setRequestType(NetworkAsyncTask.TYPE_POST).execute();" >> $fileName
+	echo -e "networkAsyncTask.setUrl(mUrlMap.get(tag$1.MethodName)).setRequestBody(DataUtils.beanToJson(tag$1)).addRequestProperty(HEADER_AUTHORIZATION, mLoginToken).setRequestType(NetworkAsyncTask.TYPE_POST).execute();" >> $fileName
 	echo -e "}" >> $fileName
 
 	if [ ! -d json ]
@@ -151,7 +151,7 @@ function generate2
 				fi
 			str1=$line
 			#str1=`echo ${str2#METHOD_OLCR_}`
-			str2=`python -c 'import generate_name; print generate_name.change_variable_name("'$str1'")'`
+			str2=`python2.7 -c 'import generate_name; print generate_name.change_variable_name("'$str1'")'`
 			str2=METHOD_$str2
 			echo str1 $str1
 			echo str2 $str2

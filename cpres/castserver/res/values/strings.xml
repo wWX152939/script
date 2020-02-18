@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 
+    **100 common **
+    **200 settings **
+    **201 settings controller description**
+    **202 settings personal**
+    **203 settings wifi**
+    **206 settings cast**
+    **208 settings display**
+    **209 settings time**
+    **210 settings system**
+    **300 home **
+    **400 gallery **
+    **500 annotation **
+    **600 group **
+    **700 camera **
+    **800 storage(record) **
+    **900 extend display
+    **1100 welcome theme **
+    **2000 no need translate **
+    **2001 need translate **
+     
+    -->
+    
+    <!-- 100 common -->
+    <string name="app_name">飞屏云盒2</string>
+    <string name="friend_name">ScreenCast </string>
+	<string name="imageView_description"> </string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="name">名称</string>
+    <string name="none">无</string>
+    
+    <string name="screenShot">截屏</string>
+    <string name="record">录制</string>
+    <string name="share">广播</string>
+    <string name="annotation">批注</string>
+    <string name="screenSwitch">切屏</string>
+    <string name="more">更多</string>
+    <string name="close">关闭</string>
+    <string name="remove">移除</string>   
+    <string name="finish">完成</string>
+    <string name="delete">删除</string>
+    <string name="delete_selected_item">要删除所选内容吗？</string>
+    <string name="rename">重命名</string>
+    <string name="save">保存</string>
+    <string name="exit">退出</string>
+    <string name="select">选择</string>
+    <string name="add">添加</string>
+    <string name="unbind">解绑</string>
+	
+    <!-- 200 settings -->
+    <string name="screencast_date">MM月dd日</string>
+    <string name="camera">摄像机</string>
+    <string name="setting_camera">投屏摄像机</string>
+    <string name="setting_hdmi_usb_camera">HDMI/USB摄像机</string>
+    <string name="setting_personal">个性化</string>
+    <string name="setting_group">合作组</string>
+    <string name="setting_network">网络</string>
+    <string name="setting_time">时间</string>
+    <string name="setting_mapping">投屏</string>
+    <string name="setting_remote_control">极域飞屏</string>
+    <string name="setting_system">系统</string>
+    <string name="time_date">日期和时间</string>
+    <string name="time_zone">时区</string>
+    <string name="get_time_date_auto">自动确定日期和时间</string>
+    <string name="use_internet_time">使用网络提供的时间</string>
+    <string name="date_setting">设置日期</string>
+    <string name="time_setting">设置时间</string>
+    <string name="use_24_hours">使用24小时制</string>
+    <string name="time_clock_13">13:00</string>
+    
+    <string name="setting_personal_name_modify">修改设备名称</string>
+    <string name="setting_personal_wallpaper">壁纸</string>
+    <string name="setting_personal_language">语言</string>
+    <string name="security_policy">安全策略</string>
+    <string name="show_type_fixed">固定PIN码</string>
+    <string name="show_type_random">随机PIN码</string>
+    <string name="show_type_auto">自动接收</string>
+    <string name="setting_pin_password_modify">设置固定PIN码</string>
+    <string name="output_hdmi">HDMI 输出</string>
+    <string name="select_best_px_auto">自动适配</string>
+    <string name="power_saving">省电</string>
+    <string name="power_saving_prompt">无信号输出时，%1$d分钟关闭</string>
+    <string name="power_saving_notuse">不使用</string>
+    <string name="power_saving_minutes">%1$d分钟</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="connected_eth">有线网络</string>
+    <string name="connected_eth_setting">有线网络设置</string>
+    <string name="turn_on_eth_dhcp">使用 DHCP</string>
+    <string name="turn_on_wlan">使用无线连接</string>
+    <string name="connected_wlan">无线连接 (STA)</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">未连接</string>
+    <string name="connecting">正在连接…</string>
+    <string name="checking_identity">正在进行身份验证…</string>
+    <string name="problem_with_identity">身份验证出现问题</string>
+    <string name="getting_ip">正在获取IP地址…</string>
+    <string name="saved">已保存</string>
+    <string name="status_info">状态信息</string>
+    <string name="signal_strength">信号强度</string>
+    <string name="signal_strength_strong">强</string>
+    <string name="signal_strength_less_strong">较强</string>
+    <string name="signal_strength_ordinary">一般</string>
+    <string name="signal_strength_weak">弱</string>
+    <string name="connected_speed">连接速度</string>
+    <string name="frequency">频率</string>
+    <string name="frequency_24">2.4GHz</string>
+    <string name="frequency_5">5GHz</string>
+    <string name="security">安全性</string>
+    <string name="ip_address">IP地址</string>
+    <string name="cancel_saved">取消保存</string>
+    <string name="modify_network">修改网络</string>
+    <string name="connect">连接</string>
+    <string name="connect_to_network">连接到网络</string>
+    <string name="connect_to_special_wifi">正在连接%1$s网络...</string>
+    <string name="wlan">无线网络</string>
+    
+    <!-- 201 settings controller description -->
+    <string name="wizard_setfinish_title">极域飞屏（ScreenCast）APP</string>
+    <string name="wizard_setfinish_qr_code_download">扫描二维码下载</string>
+    <string name="wizard_setfinish_describe">极域飞屏（ScreenCast）APP是飞屏云盒的控制软件，它集成了切屏、广播、批注、录制、截屏、设置等功能，通过极域飞屏（ScreenCast）APP，可以使您的教学、会议更加高效便捷。</string>
+
+    <string name="wizard_setfinish_cast">极域无线投屏</string>
+    <string name="wizard_setfinish_cast_describe">在不支持Miracast、Airplay的设备、或者Miracast工作不稳定的设备上，您可以通过极域飞屏（ScreenCast）APP的“本机投屏”功能，将您的设备屏幕画面和声音投射到飞屏云盒上。</string>
+    <string name="wizard_setfinish_share_describe">如果您配置了多台飞屏云盒，您可以随时将大屏幕画面广播给其他的飞屏云盒，亦可以将其他多台飞屏云盒的画面显示到您的大屏幕上。</string>
+    <string name="wizard_setfinish_screenshot_describe">您可以将屏幕画面保存到U盘、教室云盒和极域飞屏（ScreenCast）APP中。</string>
+    <string name="wizard_setfinish_annotation_describe">您可以随时使用批注功能圈点屏幕的内容；您可以在大屏幕和极域飞屏（ScreenCast）APP上同时进行批注，批注的内容是完全同步的。</string>
+    <string name="wizard_setfinish_switch_describe">您可以从投屏源列表中选择需要显示的屏幕源，飞屏云盒提供了丰富的屏幕布局方式，并支持包括Miracast、Airplay、极域无线投屏、网络摄像机、图片、视频、Word、Excel和PDF等多种投屏协议、多媒体文件的显示，甚至还可以将网络中的多台飞屏云盒的画面显示到您的大屏幕上。</string>
+    <string name="wizard_setfinish_snapshot_describe">将当前投屏画面截图并分享，快照文件保存在控制端设备的图库中。</string>
+    <string name="wizard_setfinish_record_describe">您可以随时使用录制功能，将屏幕、声音录制保存到U盘、教室云盒中；也可以将录制的文件下载到极域飞屏（ScreenCast）APP中。</string>
+    
+    
+    <string name="wizard_setfinish_video_describe">将当前投屏画面与声音以短视频的形式录制并分享，视频文件保存在控制端设备的图库中。</string>
+    <string name="password_tip_changed">安全策略变更</string>
+    <string name="storage_tip_mounted">存储设备已正常工作，预计能够录制%1$d小时%2$d分钟视频</string>
+    <string name="storage_tip_mounted_no_hour">存储设备已正常工作，预计能够录制%d分钟视频</string>
+    <string name="storage_tip_unmounted">存储设备已拔出</string>
+    <string name="storage_tip_unmounting">存储设备正在卸载...</string>
+    <string name="storage_not_exist">未检测到存储设备</string>
+    <string name="storage_not_write">存储设备不可写</string>
+    <string name="storage_space_full">存储设备空间不足</string>
+    <string name="storage_space_not_enough">存储设备空间即将不足，预计还能录制%d分钟</string>
+    
+     <!-- 202 wallpaper -->
+    <string name="Presupposition">预设</string>
+    <string name="usb_folder_name">@string/usb_disk</string>
+    <string name="set_as_wallpaper">设为壁纸</string>
+    
+    <string name="current_is_first_one">当前已是第一个</string>
+    <string name="current_is_last_one">当前已是最后一个</string>
+    <string name="file_is_not_exist">文件不存在</string>
+    <string name="source_file_is_not_exist">源文件不存在</string>
+    
+    <!-- 203 wifi -->
+    <string name="wifi_ssid">网络名称</string>
+    <string name="wifi_ssid_">SSID :</string>
+    <string name="wifi_ssid_hint">输入SSID</string>
+    <string name="wifi_security">安全性</string>
+    <string name="wifi_security_">安全性 :</string>
+    <string name="wifi_connecting_text">正在连接 %1$s···</string>
+    <string name="wifi_password">密码</string>
+    <string name="wifi_show_password">显示密码</string>
+    <string name="wifi_security_short_wep">WEP</string>
+    <string name="wifi_security_short_wpa">WPA</string>
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">WPA/WPA2</string>
+    <string name="wifi_security_none">None</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">WPA/WPA2 PSK</string>
+    <string name="wifi_add_network">添加网络</string>
+    <string name="wifi_forget">取消保存</string>
+    <string name="wifi_connect">连接</string>
+    <string name="wifi_modify">修改</string>
+    <string name="wifi_status">状态信息</string>
+    <string name="wifi_signal">连接速度</string>
+    <string name="wifi_disabled_generic">已停用</string>
+    <string name="wifi_disabled_network_failure">已停用（互联网连接状况不佳）</string>
+    <string name="wifi_disabled_password_failure">身份验证出现问题</string>
+    <string name="wifi_not_in_range">不在范围内</string>
+    <string name="wifi_remembered">已保存</string>
+    <string name="wifi_eap_method">EAP方法</string>
+    <string name="please_select_phase2">阶段2身份验证</string>
+    <string name="wifi_eap_ca_cert">CA证书</string>
+    <string name="wifi_eap_user_cert">用户证书</string>
+    <string name="wifi_eap_identity">身份</string>
+    <string name="wifi_eap_anonymous">匿名身份</string>
+    <string name="wifi_show_advanced">高级选项</string>
+    <string name="proxy_settings_title">代理</string>
+    <string name="proxy_warning_limited_support">浏览器会使用 HTTP 代理，但其他应用可能不会使用。</string>
+    <string name="proxy_url_title">"PAC网址： "</string>
+
+    <string name="proxy_hostname_label">代理服务器主机名</string>
+    <string name="proxy_hostname_hint">proxy.example.com</string>
+    <string name="proxy_port_label">代理服务器端口</string>
+
+    <string name="proxy_exclusionlist_label">对以下网址不使用代理</string>
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
+    <string name="wifi_ip_settings">IP 设置</string>
+    <string name="wifi_ip_address">IP 地址</string>
+
+    <string name="wifi_gateway">网关</string>
+
+    <string name="wifi_network_prefix_length">子网掩码</string>
+
+    <string name="wifi_dns_server">DNS 服务器</string>
+    <string name="wifi_dns1">DNS 1</string>
+
+    <string name="wifi_dns2">DNS 2</string>
+
+    <string name="wifi_unchanged">（未更改）</string>
+    <string name="wifi_unspecified">（未指定）</string>
+    <string name="wifi_speed">连接速度</string>
+    <string name="wifi_frequency">频率</string>
+
+    <string name="wifi_ip_settings_invalid_ip_address">请输入有效的IP地址。</string>
+    <string name="wifi_ip_settings_invalid_submask">请输入有效的子网掩码。</string>
+    <string name="wifi_ip_settings_invalid_gateway">请输入有效的网关地址。</string>
+    <string name="wifi_ip_settings_invalid_dns">请输入有效的DNS地址。</string>
+    <string name="local_storage_location_normal_no_hour"><Data><![CDATA[<font color="#333333">U盘</font><br><font color="#333333"><small>剩余空间<b>%1$s</b>，预计可录制<b>%2$d</b>分钟视频<small></font>]]></Data></string>
+    <string name="local_storage_location_selected_no_hour"><Data><![CDATA[<font color="#0078FF">U盘</font><br><font color="#333333"><small>剩余空间<b>%1$s</b>，预计可录制<b>%2$d</b>分钟视频<small></font>]]></Data></string>
+    <string name="cloud_storage_location_normal_no_hour"><Data><![CDATA[<font color="#333333">云盘</font><br><font color="#333333"><small>剩余空间<b>%1$s</b>，预计可录制<b>%2$d</b>分钟视频<small></font>]]></Data></string>
+    <string name="cloud_storage_location_selected_no_hour"><Data><![CDATA[<font color="#0078FF">云盘</font><br><font color="#333333"><small>剩余空间<b>%1$s</b>，预计可录制<b>%2$d</b>分钟视频<small></font>]]></Data></string>
+    
+    <string name="local_storage_location_normal"><Data><![CDATA[<font color="#333333">U盘</font><br><font color="#333333"><small>剩余空间<b>%1$s</b>，预计可录制<b>%2$d</b>小时<b>%3$d</b>分钟视频<small></font>]]></Data></string>
+    <string name="local_storage_location_selected"><Data><![CDATA[<font color="#0078FF">U盘</font><br><font color="#333333"><small>剩余空间<b>%1$s</b>，预计可录制<b>%2$d</b>小时<b>%3$d</b>分钟视频<small></font>]]></Data></string>
+    <string name="cloud_storage_location_normal"><Data><![CDATA[<font color="#333333">云盘</font><br><font color="#333333"><small>剩余空间<b>%1$s</b>，预计可录制<b>%2$d</b>小时<b>%3$d</b>分钟视频<small></font>]]></Data></string>
+    <string name="cloud_storage_location_selected"><Data><![CDATA[<font color="#0078FF">云盘</font><br><font color="#333333"><small>剩余空间<b>%1$s</b>，预计可录制<b>%2$d</b>小时<b>%3$d</b>分钟视频<small></font>]]></Data></string>
+    
+    <!-- zj -->
+    <string name="set_eth_net_title">设置有线网络</string>
+    <string name="wifi_eth_ip_address_edit">IP 地址 :</string>
+    <string name="wifi_eth_gateway_edit">网关 :</string>
+    <string name="wifi_eth_network_prefix_length_edit">子网掩码 :</string>
+    <string name="wifi_eth_dns1_edit">DNS 1 :</string>
+    <string name="wifi_eth_dns2_edit">DNS 2 :</string>
+    <string name="wifi_ip_settings_static">静态</string>
+    <string name="subnet_mask_edit">子网掩码 :</string>
+    <!--  -->
+
+    <string-array name="wifi_security">
+        <item>None</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+
+        <!-- Do not translate. -->
+        <item>PEAP</item>
+        <!-- Do not translate. -->
+        <item>TLS</item>
+        <!-- Do not translate. -->
+        <item>TTLS</item>
+        <!-- Do not translate. -->
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>None</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>None</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+
+        <!-- No HTTP proxy is used for the current wifi network [CHAR LIMIT=25] -->
+        <item>无</item>
+        <!-- Manual HTTP proxy settings are used for the current wifi network [CHAR LIMIT=25] -->
+        <item>手动</item>
+        <!-- Proxy Auto-Config URL that is used for the current wifi network [CHAR LIMIT=25] -->
+        <item>代理自动配置</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+
+        <!-- Use DHCP (Dynamic Host Configuration Protocol) for obtaining IP settings [CHAR LIMIT=25] -->
+        <item>DHCP</item>
+        <!-- Use statically defined IP settings [CHAR LIMIT=25] -->
+        <item>静态</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>弱</item>
+        <item>一般</item>
+        <item>较强</item>
+        <item>强</item>
+    </string-array>
+    <string-array name="wifi_status">
+
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>正在扫描…</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
+        <item>正在连接…</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
+        <item>正在进行身份验证…</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
+        <item>正在获取IP地址...</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
+        <item>已连接</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>已暂停</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
+        <item>正在断开连接…</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>已断开连接</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>失败</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>已停用</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>暂时关闭（网络状况不佳）</item>
+    </string-array>
+
+    <!-- Match this with the order of NetworkInfo.DetailedState. -->
+    <skip />
+    <!-- Wi-Fi settings. The status messages when the network is known. -->
+    <string-array name="wifi_status_with_ssid">
+
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>正在扫描…</item>
+        <!-- Status message of Wi-Fi when it is connecting to a network. -->
+        <item>正在连接到 %1$s…</item>
+        <!-- Status message of Wi-Fi when it is authenticating with a network. -->
+        <item>正在通过 %1$s 进行身份验证…</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address from a network. -->
+        <item>正在从 %1$s 获取IP地址…</item>
+        <!-- Status message of Wi-Fi when it is connected to a network. -->
+        <item>已连接到 %1$s</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>已暂停</item>
+        <!-- Status message of Wi-Fi when it is disconnecting from a network. -->
+        <item>正在断开与 %1$s 的连接…</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>已断开连接</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>失败</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>已停用</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>暂时关闭（网络状况不佳）</item>
+    </string-array>
+    <string-array name="language_list">
+        <item>简体中文</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="ap_band">
+        <item>2.4G</item>
+        <item>5G</item>
+    </string-array>
+    
+    <string-array name="ap_band_width">
+        <item>20MHz</item>
+        <item>40MHz</item>
+        <item>80MHz</item>
+    </string-array>
+    
+    <string-array name="ap_work_mode">
+        <item>N</item>
+        <item>AC</item>
+    </string-array>
+    
+    <string-array name="ap_ssid_name">
+        <item>跟随设备名称</item>
+        <item>自定义名称</item>
+    </string-array>
+    
+    <string-array name="ap_enc_type">
+        <item>无</item>
+        <item>WPA2-PSK</item>
+        <item>WPA-PSK/WPA2-PSK 混合加密</item>
+    </string-array>
+    
+    <string-array name="ap_ssid_visibility">
+        <item>广播SSID</item>
+        <item>隐藏SSID</item>
+    </string-array>
+    
+   	<!-- 209 setting time zone -->
+    <string name="use_internet_time_zone">使用网络提供的时区</string>
+    <string name="get_time_zone_auto">自动确定时区</string>
+    <string name="select_time_zone">选择时区</string>
+    
+    <!-- 210 setting system -->
+    <string name="reset">重置</string>
+    <string name="shutdown">关机</string>
+    <string name="reboot">重启</string>
+    <string name="is_shutdown">确定要关闭设备吗？</string>
+    <string name="is_reboot">确定要重启设备吗？</string>
+    <string name="restore_factory_settings">恢复出厂设置</string>
+    <string name="is_restore_factory">确定要恢复到出厂设置吗？</string>
+    <string name="current_version">当前版本号</string>
+    <string name="checking_update">正在检查更新…</string>
+    <string name="current_is_last_version">当前已是最新版本</string>
+    <string name="find_new_version">发现新版本</string>
+    <string name="download_update_now">立即下载更新包</string>
+    <string name="continue_download">继续下载</string>
+    <string name="download_waiting">正在下载中，请稍后…</string>
+    <string name="restart_update_now">立即重启并更新</string>
+    <string name="update_power_on">更新时请勿关闭设备电源</string>
+    <string name="network_disconnect">网络连接已断开</string>
+    <string name="screen_recording">屏幕录制</string>
+    <string name="download">下载</string>
+    <string name="find_new_version_pls_update">发现新版本，请更新</string>
+    <string name="apk_parse_error">安装更新包失败</string>
+    <string name="apk_install_succ">安装成功,重新启动</string>
+    <string name="system_information">系统信息</string>
+    <string name="mode">型号</string>
+    <string name="system_version">系统版本</string>
+    <string name="can_not_find_system_version_name">没有发现系统版本</string>
+    <string name="hardware_version">序列号</string>
+    <string name="update">更新</string>
+    <string name="check_to_update">检查更新</string>
+    <string name="download_update_auto">自动下载更新包</string>
+    
+    <string name="progress_save">正在保存&#8230;</string>
+    <string name="diagnosis">诊断</string>
+    
+    
+    <string name="remote_auto_update">自动升级</string>
+    <string name="upgrade">升级</string>
+    
+    <!-- 210 setting system security -->
+    <string name="setting_security">安全</string>
+    <string name="password_protection">密码保护</string>
+    <string name="modify_password">修改密码</string>
+    <string name="verify_admin_password">验证管理员密码</string>
+    <string name="input_admin_password_to_setting">输入管理员密码进行设置</string>
+    <string name="set_admin_password">设置管理员密码</string>
+    <string name="modify_admin_password">修改管理员密码</string>
+    <string name="password_">密码 :</string>
+    <string name="original_password_">原密码 :</string>
+    <string name="new_password_">新密码 :</string>
+    <string name="confirm_password">确认密码 :</string>
+    <string name="reminder">提示</string>
+    <string name="tip_">提示 :</string>
+    <string name="password_tip">密码提示信息 :</string>
+    <string name="password_tip_hint">请输入密码提示信息</string>
+    <string name="password_tip_toast">请输入密码提示信息</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_password_again">请再输入一次密码</string>
+    <string name="input_original_password">请输入原始密码</string>
+    <string name="input_new_password">请再输入新密码</string>
+    <string name="input_new_password_again">请再输入一次新密码</string>
+    <string name="incorrect_password">密码错误，请重试</string>
+    
+    
+    <!-- 300 home -->
+    
+    <string name="permanentSource">常用源</string>
+    <string name="normalSource">普通源</string>
+    <string name="groupSource">合作组</string>
+    <string name="fileData">文件资料</string>
+    <string name="clearVideoSource">清空视频源</string>
+    <string name="clearVideoSourceToast">已移除所有普通投屏源</string>
+    <string name="layout">布局</string>
+    <string name="clear_all_src">清除所有画面</string>
+    <string name="clear_all_src_tips">已移除所有显示的画面</string>
+    <string name="not_installed_apk">未安装该应用,请安装后重试</string>
+    
+    <string name="please_input_video_source_name">请输入视频源名称</string>
+    <string name="please_select_storage_location">请选择存储位置</string>
+    <string name="undetected_usb_disk">未检测到U盘</string>
+    <string name="undetected_cloud_disk">未配置云盘</string>
+    <string name="select_storage_location_notice">您可以在"更多-存储路径"中,选择资源的存储位置</string>
+    <string name="recode_end_save_usb_disk_tips">录制文件已存储至U盘</string>
+    <string name="recode_end_save_cloud_disk_tips">录制文件已存储至云盘</string>
+    <string name="recode_pause_tips">录制已暂停</string>
+    <string name="screen_shot_success_u_tips">屏幕快照已存储至U盘</string>
+    <string name="screen_shot_success_cloud_tips">屏幕快照已存储至云盘</string>
+    <string name="screen_shot_faild_tips">未发现存储设备</string>
+    <string name="please_input_new_name">请输入新的名称</string>
+    <string name="devices_offline_click_tips">设备已离线，无法上屏</string>
+    <string name="devices_auth_click_tips">摄像机权限已变更，无法上屏</string>
+    
+    <string name="screen_share_faild_tips">未配置小组屏</string>
+    <string name="screen_share_start_tips">屏幕广播已开始</string>
+    <string name="screen_share_stop_tips">屏幕广播已停止</string>
+    
+    <string name="annotation_history">当堂注解</string>
+    <string name="annotation_start_aotu_clean">已启动自动清除笔迹功能</string>
+    <string name="annotation_stop_aotu_clean">已停用自动清除笔迹功能</string>
+    
+    <string name="different_password">两次密码不一致</string>
+    <string name="different_password_hint">两次密码不一致, 请重新输入</string>
+    <string name="incorrect_password_hint">密码错误, 请重试</string>
+    <string name="incorrect_original_password_hint">原密码不正确, 请重试</string>
+    
+    <string name="gallery">图库</string>
+    <string name="allSelect">全选</string>
+    <string name="ethernet">以太网</string>
+    <string name="brlan">内置网络</string>
+    <string name="no_network">无网络</string>
+    <string name="storage">存储</string>
+    <string name="application">应用程序</string>
+    <string name="volume_switch">音量调节</string>
+
+    <string name="stick">置顶</string>
+    <string name="cancel_stick">取消置顶</string>
+    
+    <string name="recoding_set_storage_location_tips">正在录制,无法设置存储位置</string>
+    <string name="screenShotFailed">截屏失败</string>
+    
+    <string name="password_tip_controller">收到控制请求，请在控制端设备输入以下PIN码</string>
+    <string name="password_tip_caster">收到投屏请求，请在投屏端设备输入以下PIN码</string>
+    <string name="mapping_select_max">展示数量已达到上限</string>
+    <string name="home">首页</string>
+    
+    <string name="toastmaster">主屏</string>
+    <string name="share_error_no_create_group">尚未创建合作组，无法广播屏幕</string>
+    <string name="share_error_no_subgroup">没有组员，无法广播屏幕</string>
+    <string name="share_error_no_online_subgroup">组员不在线，无法广播屏幕</string>
+    
+    <string name="cannot_goto_setting_when_sharing">正在接收屏幕广播，无法进行设置</string>
+    <string name="cannot_goto_switch_screen_when_sharing">正在接收屏幕广播，无法切换屏幕</string>
+    <string name="cannot_goto_switch_layout_when_sharing">正在接收屏幕广播，无法切换屏幕</string>
+    <string name="cannot_goto_gallery_when_sharing">正在接收屏幕广播，无法查看图库</string>
+    
+    <string name="no_usbdevices">暂无U盘</string>
+    <string name="no_devices">暂无设备</string>
+    
+    <!-- 400 gallery -->
+    <string name="usb_disk">U盘</string>
+    <string name="cloud_storage">云盘</string>
+    <string name="confirm_delete_image">确定要删除此图片吗？</string>
+    <string name="confirm_delete_video">确定要删除此视频吗?</string>
+    <string name="select_all">全选</string>
+    <string name="deselect_all">取消全选</string>
+    <string name="download_to_usb">下载到U盘</string>
+    <string name="date_format">yyyy年MM月dd日</string>
+    <string name="exit_select">退出选择</string>
+    <string name="selected">已选择</string>
+    <string name="previous_page">上一页</string>
+    <string name="next_page">下一页</string>
+    <string name="back">返回</string>
+    <string name="downloading">正在下载 </string>
+    <string name="no_usb_tip">未检测到U盘!</string>
+    <string name="select_tip">请先选择图片!</string>
+    <string name="download_sucess">下载成功!</string>
+    <string name="redownload">重新下载</string>
+    <string name="download_fail_title">%1$d项内容下载失败</string>
+    <string name="no_usb">未检测到U盘</string>
+    <string name="no_cloud">未配置云盘</string>
+    <string name="no_media">暂无图片或视频</string>
+    <string name="play_error">播放视频出错</string>
+    <string name="tip_first">当前已是第一个</string>
+    <string name="tip_last">当前已是最后一个</string>
+    <string name="vedio_error">无法解析视频源</string>
+    
+     <!-- 500 annotation -->
+    <string name="annotation_aotu_clean">自动擦除</string>
+    
+ 	<string name="dialog_cleanall_title">注解</string>
+    <string name="annotation_space">  &#160;  </string>
+    
+    <!-- 600 group -->
+    <string name="confirm_countdown">确定 (%1$d s)</string>
+    <string name="group_dissolve">解散组</string>
+    <string name="group_exit">退出组</string>
+    <string name="group_join_pin">入组验证码</string>
+    <string name="group_tip1">您还未加入任何合作组</string>
+    <string name="group_tip2">您可以新建合作组或加入到已有的合作组中</string>
+    <string name="group_tip3">暂无已建立的合作组</string>
+    <string name="group_tip4">主持人可创建合作组并可将主屏幕广播给小组屏，也可将小组屏显示到主屏幕</string>
+    <string name="group_tip5">参与合作的小组设备可加入到合作组中，小组设备可以查看主屏幕广播的内容。</string>
+    <string name="group_create_input_name">请输入合作组名称</string>
+    <string name="group_join">加入这个合作组</string>
+    <string name="group_join_devices">已加入合作组的设备 (%1$d)</string>
+    <string name="group_rename">重命名合作组名称</string>
+    <string name="group_rename_input_name">请输入小组设备名称</string>
+    <string name="group_device_rename">重命名小组设备名称</string>
+    <string name="group_device_rename_input_name">请输入小组设备名称</string>
+    <string name="group_remove_device">移除小组设备</string>
+    <string name="group_remove_device_tip">确定要移除此小组设备码？</string> 
+    <string name="group_dissolve_tip">确定要解散此合作组吗？</string> 
+    <string name="group_exit_tip">确认要退出合作组吗？</string>  
+    <string name="group_pin_tip">请输入入组验证码</string>
+    <string name="group_pin_wrong_tip">验证码错误，请重试</string>
+    <string name="group_pin_wrong_tip2">对方无响应，请检查网络</string>
+    <string name="group_pin_wrong_tip3">您选择的合作组已经失效</string>
+    
+    <string name="stop_record_result_no_tools">录制视频无法合并</string>
+    <string name="stop_record_result_failed">录制视频合并失败</string>
+    <string name="stop_record_result_splice">录制视频正在合并，请不要拔出存储设备</string>
+    <string name="stop_record_result_success">录制视频合并成功</string>
+    
+    <string name="receiving_broadcast">正在接收广播</string>
+    
+    <!-- 700 camera -->
+        
+    <string name="telecamera_list">摄像机列表</string>
+    <string name="position_list">机位列表 (%1$d)</string>
+    <string name="position_list_1">机位列表</string>
+    <string name="add_camera_stand">添加机位</string>
+    <string name="add_camera_stand_for_button">添加机位</string>
+    <string name="select_telecamera_list">选择摄像机</string>
+    <string name="delete_all">清空</string>
+    <string name="telecamera">网络摄像机</string>
+    <string name="add_telecamera">添加摄像机</string>
+    <string name="add_telecamera_tip">正在添加摄像机，请输入帐号密码</string>
+    <string name="edit_telecamera">设置摄像机名称</string>
+    <string name="edit_position">修改机位名称</string>
+    <string name="delete_telecamera">删除摄像机</string>
+    <string name="delete_telecamera_name">确定要删除此摄像机吗？</string>
+    <string name="add_telecamera_stand">添加摄像机机位</string>
+    <string name="is_delete_all_telecamera_stand">确认要删除所有机位吗？</string>
+    
+    <string name="account">帐号</string>
+    <string name="password">密码</string>
+    <string name="please_input_account_hint">请输入帐号</string>
+    <string name="please_input_password_hint">请输入密码</string>
+    
+    <string name="modify_name">修改名称</string>
+    
+    <string name="ipc_camera_error_invalid_username_password">帐号或密码错误，请重试</string>
+    <string name="ipc_camera_error_not_online">摄像机不在线</string>
+    <string name="ipc_camera_error_device_not_find">未找到摄像机</string>
+    <string name="ipc_camera_error_device_had_bound">摄像机已绑定</string>
+    <string name="ipc_camera_error_device_position_full">预设机位数量已达到上限</string>
+    <string name="ipc_camera_error_device_position_not_find">未找到摄像机机位</string>
+    
+    <string name="you_add_no_camera">您还未添加任何摄像机</string>
+    <string name="add_camera">添加摄像机</string>
+    <string name="adjust_camera">调整摄像机</string>
+    <string name="searching_for_camera">正在搜索摄像机，请稍候...</string>
+    <string name="not_getting_a_preview_screen">暂未获取到预览画面</string>
+    <string name="camera_permissions_have_been_changed">摄像机权限已变更</string>
+    <string name="camera_permissions_have_been_changed_1">摄像机权限已变更，请至摄像机列表页重新获取权限.</string>
+    <string name="camera_offline">摄像机不在线</string>
+    <string name="modify_faild">修改失败</string>
+    <string name="add_failed">添加失败</string>
+    <string name="modify_success">修改成功</string>
+    <string name="delete_faild">删除失败</string>
+    <string name="select_position">选择机位</string>
+    <string name="adjust_position">调整机位</string>
+    <string name="regain_system_permissions">重新获取权限</string>
+    <string name="is_save_the_position_change">机位已变更，是否保存？</string>
+    
+    <string name="please_input_camera_name">请输入摄像机名称</string>
+    <string name="please_input_position_name">请输入机位名称</string>
+    <string name="position_name_repeated">机位名重复，请重新输入</string>
+    <string name="delete_complete">删除完成！</string>
+    <string name="modify_device_name">修改设备名称</string>
+    <string name="operation_exception">操作异常</string>
+    
+    <string name="position">机位</string>
+    <string name="delete_all_failed">清空失败</string>
+    <string name="add_success">添加成功</string>
+    <string name="no_position">未设置机位</string>
+    <string name="delete_position">删除机位</string>
+    <string name="clear_position">清空机位</string>
+    <string name="camera_offline_toast">无法连接到摄像机，请重试</string>
+    
+    <string name="no_select_position">未选择机位</string>
+    <string name="please_select_position">请选择机位</string>
+    <string name="please_add_position">请添加机位</string>
+    <string name="save_position_failed">机位保存失败</string>
+    <string name="please_input_device_name">请输入设备名称</string>
+    <string name="delete_position_1">确定删除此机位吗？</string>
+    
+    <!-- 800 zj record -->
+    <string name="clouddisk_storage">云盘存储</string>
+    <string name="no_clouddisk">暂无云盘</string>
+    <string name="clouddisk_capacity_prefix">已使用 :</string>
+    <string name="select_clouddisk">请选择云盘</string>
+    <string name="verify_clouddisk">添加云存储设备需要验证用户名和密码</string>
+    <string name="clouddisk_account">帐号 :</string>
+    <string name="clouddisk_account_hint">请输入帐号</string>
+    <string name="clouddisk_password_hint">请输入密码</string>
+    <string name="clouddisk_password_error">帐号或密码错误，请重试</string>
+    <string name="clouddisk_delete_title">移除云盘</string>
+    <string name="clouddisk_delete_content">确定要移除此云盘吗？</string> 
+    <string name="clouddisk_no_tips">暂无云盘</string>
+    
+    <!-- 800 record -->
+    <string name="recording_quality">录制质量</string>
+    <string name="recording_1080p">录制文件大小约 80MB/分钟</string>
+    <string name="recording_720p">录制文件大小约 50MB/分钟</string>
+    <string name="recording_resolution">%dP</string>
+    <string name="network_exception">网络异常，请重新连接</string>
+    
+    <!-- 900 extend display -->
+    <string name="extend_display">扩展屏</string>
+    <string name="no_extend_display">未添加扩展屏</string>
+    <string name="select_extend_display_list">选择扩展屏</string>
+    <string name="searching_for_extend_display">正在搜索扩展屏，请稍候...</string>
+   	<string name="extend_display_store_info">使用说明：扩展屏主要显示远端听课教室的画面，请先将盒子和 扩展屏绑定并连接，并确保扩展屏和盒子在同一网络下。</string>
+   	
+    <string name="edit_extend_display">设置扩展屏名称</string>
+    <string name="delete_extend_display">删除扩展屏</string>
+    <string name="delete_extend_display_name">确定要解绑此扩展屏吗？</string>
+    <string name="extend_display_add_error_version_limit">飞屏云盒版本过低,请升级到最新版本</string>
+    <string name="extend_display_add_error_operation">遥控器正在设置扩展屏,请稍后重试</string>
+    <string name="extend_display_add_error_another_added">该设备已被其他飞屏云盒设置为扩展屏</string>
+    
+    <!-- ↓↓↓↓↓↓↓↓↓ 1100 v5迭代一期欢迎主题 ↓↓↓↓↓↓↓↓↓-->
+    <string name="welcome_theme">欢迎主题</string>
+    <string name="insert">插入</string>
+    <string name="template">模板</string>
+    <string name="music">音乐</string>
+    <string name="demonstrate">展示</string>
+    <string name="back_to_home">返回首页</string>
+    <string name="insert_text">插入文本</string>
+    <string name="insert_divider">插入分割线</string>
+    <string name="insert_picture">插入图片</string>
+    <string name="replace_bg">更换背景</string>
+    <string name="shareboard_color">颜色</string>
+    <string name="words">文字</string>
+    <string name="how_many_music">共%1$d首音乐</string>
+    <string name="max_music_number_limit_prompt">最多可添加%1$d首音乐</string>
+    <string name="max_music_file_size_limit_prompt">音频超过50M</string>
+    <string name="max_picture_file_size_limit_prompt">图片超过10M</string>
+    <string name="delete_music">删除音乐</string>
+    <string name="delete_music_alert_content">确定要删除此音乐吗？</string>
+    <string name="welcome_theme_reset_alert_content">是否清除编辑内容，还原至初始样式？\n重置模板后，所编辑的内容将不能恢复</string>
+    <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+    
+    <!-- 2000 no need translate -->
+    <string name="wifi_network_prefix_length_hint" translatable="false">255.255.255.0</string>
+    <string name="wifi_ip_address_hint" translatable="false">192.168.1.128</string>
+    <string name="wifi_dns2_hint" translatable="false">8.8.4.4</string>
+    <string name="wifi_dns1_hint" translatable="false">8.8.8.8</string>
+    <string name="wifi_gateway_hint" translatable="false">192.168.1.1</string>
+    <string name="proxy_port_hint" translatable="false">8080</string>
+    <string name="proxy_url_hint" translatable="false">https://www.example.com/proxy.pac</string>
+    <string name="wifi_ip_settings_dhcp" translatable="false">DHCP</string>
+    <string name="wifi_band_24ghz" translatable="false">2.4GHz</string>
+    <string name="wifi_band_5ghz" translatable="false">5GHz</string>
+    <string name="buenos_aires">布宜诺斯艾利斯</string>
+    
+    <string name="please_input_ip_address">@string/wifi_ip_address_hint</string>
+    <string name="please_input_submask">@string/wifi_network_prefix_length_hint</string>
+    <string name="please_input_gateway">@string/wifi_gateway_hint</string>
+    <string name="please_input_dns1">@string/wifi_dns1_hint</string>
+    <string name="please_input_dns2">@string/wifi_dns2_hint</string>
+    <string name="please_select_update_version">请选择需要升级的版本</string>
+    
+    <!-- 2001 need translate -->
+    <string name="wifi_ip_settings_">IP设置 :</string>
+    <string name="wifi_ip_address_">IP地址 :</string>
+    <string name="wifi_gateway_">网关 :</string>
+    <string name="wifi_network_prefix_length_">子网掩码 :</string>
+    <string name="wifi_dns1_">DNS1 :</string>
+    <string name="wifi_dns2_">DNS2 :</string>
+    <string name="start_failed">启动失败</string>
+    
+    <string name="now_annotation">正在批注, 无法进行此操作</string>
+    <string name="now_broadcast_screen">正在广播屏幕, 无法进行此操作</string>
+    <string name="now_receiving_broadcast">正在接收屏幕广播, 无法进行此操作</string>
+    <string name="now_receiving_olcr">当前正在同步课堂的讲课模式下，不能进行此操作</string>
+    <string name="now_recoding">正在录制, 无法进行此操作</string>
+    <string name="network_exception_download_failed">网络异常，下载失败</string>
+    <string name="download_failed">下载失败</string>
+    
+    <string name="group_tip0">合作组</string>
+    <string name="group_create">新建合作组</string>
+    <string name="controller_set_camera">遥控器端正在设置网络摄像机</string>
+    <string name="save_position_success">已保存到 %1$s</string>
+    
+    <!-- zj 同步课堂 -->
+    <string name="class_suffix">班</string>
+    <string name="online_classroom_detail">同步课堂</string>
+    <string name="class_begin">上课</string>
+    <string name="class_over">下课</string>
+    <string name="login">登录</string>
+    <string name="mythware_education_cloud_account">极域教育云帐号</string>
+    <string name="mythware_id">Mythware ID</string>
+    <string name="account_">帐号 :</string>
+    <string name="captcha_">验证码 :</string>
+    <string name="input_captcha_hint">请输入验证码</string>
+    <string name="login_mythware_education_cloud_account_input_hint">手机号/邮箱/用户名</string>
+    <string name="login_mythware_id_account_input_hint">手机号/邮箱</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="find_password_education_cloud_help">若忘记密码，请至教育云找回，教育云网址：</string>
+    <string name="education_cloud_website">%1$s</string>
+    <string name="find_password_mythwareid_cloud_help">若忘记密码，请至极域云找回，极域云网址：</string>
+    <string name="mythwareid_cloud_website">%1$s</string>
+    <string name="select_school">选择要上课的学校</string>
+    <string name="select_course">选择课程</string>
+    <string name="course_lesson_create_failure">课堂创建失败</string>
+    <string name="course_lesson_create_failure_and_not_enter">课堂创建失败，无法进入</string>
+    <string name="no_olcr_today_course">您今天没有课</string>
+    <string name="ID_" translatable="false">ID :</string>
+    <string name="minutes">分钟</string>
+    <string name="dot">•</string>
+    <string-array name="lesson_status">
+        <item >未开始</item>
+        <item >正在上课</item>
+        <item >已结束</item>
+        <item >未知</item>
+    </string-array>
+    <string name="join_other_olcr_course_by_id">通过ID加入其他同步课堂</string>
+    <string name="join_online_classroom_course">加入同步课堂</string>
+    <string name="select_all_class">选择上课的班级</string>
+    <string name="join_course">加入课堂</string>
+    <string name="online_classroom_course_list">同步课堂列表</string>
+    <string name="enter_lesson">进入课堂</string>
+    <string name="master_lesson_no_enter">主讲教师还未进入课堂，请稍候•••</string>
+    <string name="enter_in_advance">未到上课时间，可提前30分钟进入</string>
+    <string name="which_course_section">第%1$s节</string>
+    <string name="course_id_">课程ID :</string>
+    <string name="input_course_id_hint">请输入课程ID</string>
+    <string name="course_password_">课程密码 :</string>
+    <string name="input_course_password_hint">请输入密码</string>
+    <string name="attend_class_">上课班级 :</string>
+    <string name="select_attend_class_hint">请选择上课班级</string>
+    <string name="which_class">%1$d班</string>
+    <string name="confirm_join_class_tip">请确认加入后的班级，加入后不可更改</string>
+    <string name="join_course_success_tip">加入成功，若加入的课程当天无课节，请至教育云查看课程</string>
+    <string name="olcr_join_course_failure">加入失败</string>
+    <string name="own_class">任教班级</string>
+    <string name="all_class">全部班级</string>
+    <string name="empty_class">暂无班级数据</string>
+    <string name="current_mode_">当前模式 :</string>
+    <string name="teaching_mode">讲课模式</string>
+    <string name="self_study_mode">自习模式</string>
+    <string name="switch_to_teaching_mode">切换为讲课模式</string>
+    <string name="switch_to_self_study_mode">切换为自习模式</string>
+    <string name="master_lesson_over_and_exit_alert_content">下课后将退出登录，并结束当前课堂</string>
+    <string name="master_lesson_logout_success_tip">已下课</string>
+    <string name="force_close_by_admin">管理员已强制结束课堂</string>
+    <string name="quit_online_course">您不再是当前课堂的老师，已退出课堂</string>
+    <string name="master_lesson_logout_failure_tip">结束课堂失败</string>
+    <string name="listener_lesson_leave_alert_content">下课后将退出登录，并离开当前课堂</string>
+    <string name="listener_lesson_logout_success_tip">已离开当前课堂</string>
+    <string name="listener_lesson_logout_failure_tip">离开课堂失败</string>
+    <string name="no_enter_lesson_logout_failure_tip">退出同步课堂登录失败</string>
+    <string name="olcr_select_school_failure">选择学校失败</string>
+    <string name="olcr_enter_lesson_failure">进入课堂失败</string>
+    <string name="olcr_enter_lesson_mcu_failure">课堂创建失败，无法进入.错误码:%1$d</string>
+    <string name="olcr_login_invalid">登录信息失效，请重新登录</string>
+    <string name="olcr_login_invalid_other_login">您的帐号已在其他设备登录，当前设备登录失效</string>
+    <string name="olcr_class_over_remain_time">距下课还剩%1$d分钟</string>
+    <string name="error_other_device_operate">其他设备正在请求服务器，请勿重复操作</string>
+    <string name="olcr_first_login_to_modify_password_tip">初次登录请至教育云修改密码</string>
+    <string name="olcr_mythwareid_not_bind_jyy_account">请先绑定教育云帐号后再登录</string>
+    <string name="net_exception">网络异常</string>
+    <string name="try_again_later">正在处理，请稍候</string>
+    <string name="olcr_switch_to_wifi_alert">同步课堂需要有线网络支持，请将设备连接到有线网络</string>
+    <!--  olcr errorcode -->
+    <string name="accunt_not_exist">帐号不存在</string>
+    <string name="accunt_not_exist_and_relogin">帐号不存在，请重新登录</string>
+    <string name="accunt_forbiddened">帐号已禁用</string>
+    <string name="password_error">密码错误</string>
+    <string name="captcha_error">验证码错误</string>
+    <string name="captcha_invalid">验证码无效</string>
+    <string name="olcr_student_login_not_support">暂不支持学生登录</string>
+    <string name="olcr_school_administrator_login_not_support">暂不支持学校超级管理员登录</string>
+    <string name="olcr_join_course_id_or_password_invalid">请输入正确的ID或密码</string>
+    <string name="olcr_join_course_class_not_exist">班级不存在</string>
+    <string name="olcr_join_course_repeat">当前老师或所选班级已加入该课程，请勿重复加入</string>
+    <string name="olcr_join_course_class_overflow">已加入的教室数量达到上限，无法加入</string>
+    <string name="olcr_lesson_end">课节已结束</string>
+    <string name="olcr_lesson_not_start">课节未开始</string>
+    
+    <string name="olcr_class_member_is_full">房间人员已满,请稍后登录</string>
+    <string name="OLCR_teacher_camera">教师摄像机</string>
+    <string name="OLCR_student_camera">学生摄像机</string>
+    <string name="no_OLCR_teacher_camera">请先添加教师摄像机，听课教室才能获取主讲教师的画面</string>
+    <string name="no_OLCR_student_camera">请先添加学生摄像机，主讲教室才能获取学生画面</string>
+    <string name="change_camera_binding_group">该摄像机已被添加至%1$s，若更改至%2$s，%1$s将无法使用，确定要添加吗？</string>
+
+    <!-- ↓↓↓↓↓↓ v6工程模式 ↓↓↓↓↓↓-->
+    <string name="enter_diagnosis_verify_password_title">输入密码进入工程模式</string>
+    <string name="enter_diagnosis_reminder_password_rule">固定前缀(myth)+两位当前系统日期DD+SN的低四位</string>
+    <!-- ↑↑↑↑↑↑ v6工程模式 ↑↑↑↑↑↑-->
+    
+    
+    <string name="toolbar">工具条</string>
+    <string name="auto_hide">自动隐藏</string>
+    <string name="always_display">始终显示</string>
+    <string-array name="toolbar_list">
+        <item>自动隐藏</item>
+        <item>始终显示</item>
+    </string-array>
+    
+    <!-- V5 -->
+    <string name="application_management">应用管理</string>
+    <string name="version_">版本:</string>
+    <string name="total">总计</string>
+    <string name="application_1">应用</string>
+    <string name="data">数据</string>
+    <string name="delete_data">删除数据</string>
+    <string name="delete_app_data">删除应用数据</string>
+    <string name="delete_app_data_notice">应用的数据删除后不可恢复,\n包括所有文件、设置、账户、数据库等</string>
+    <string name="cache">缓存数据</string>
+    <string name="clear_cache">清空缓存</string>
+    <string name="push_flow">直播</string>
+    <string name="stop_push_flow">停止直播</string>
+    <string name="rtmp_server">RTMP服务器</string>
+    <string name="no_setup">尚未配置</string>
+    <string name="no_setup_push_flow_server">尚未配置直播服务器</string>
+    <string name="go_setup">去设置</string>
+    <string name="setup_rtmp_server">配置RTMP服务器</string>
+    <string name="address_">地址:</string>
+    <string name="secret_key_">密钥:</string>
+    <string name="install_now">立即安装</string>
+    <string name="apk_install_success">安装成功</string>
+    <string name="apk_install_failed">安装失败</string>
+    <string name="apk_installing">正在安装...</string>
+    <string name="controller_setting_no_enter">遥控器正在进行此设置，本端无法同时进行</string>
+    <string name="clear_background_application">清理后台应用</string>
+    <string name="rtmp_connect_success">开始直播</string>
+    <string name="rtmp_connect_reconnect">直播连接异常,尝试重新连接直播服务器</string>
+    <string name="rtmp_connect_disconnect">无法连接到直播服务器</string>
+    <string name="rtmp_can_not_set_when_public">正在直播，无法修改RTMP服务器设置</string>
+    <string name="rtmp_connect_stop">停止直播</string>
+    <string name="apk_clean_over_tip">已清理至最佳状态</string>
+    <string name="apk_clean_failed_tip">清理失败</string>
+    
+    
+    
+    
+    <string name="zxybSource">智写云笔</string>
+    <string name="zxybClassNumber">%1$d / %2$d 人</string>
+    <string name="zxybConfigure">配置</string>
+    <string name="zxybTeacher">教师云笔</string>
+    <string name="zxybTeacher_add">添加教师云笔</string>
+    <string name="input_zxyb_name">请输入云笔名称</string>
+    <string name="input_zxyb_id">请输入云笔ID</string>
+    <string name="input_zxyb_class_name">请输入班级名称</string>
+    <string name="zxybTeacher_modify">编辑教师云笔</string>
+    <string name="zxyb_delete">删除云笔</string>
+    <string name="zxybStudent">学生云笔</string>
+    <string name="zxybServerConfigure">服务器配置</string>
+    <string name="zxybServerPortError">服务器端口%1$s不可用</string>
+    <string name="zxyb_enth_ip">有线网络 : %1$s</string>
+    <string name="zxyb_wlan_ip">无线网络 : %1$s</string>
+    <string name="zxybServerPort_">端口:</string>
+    <string name="inputPortNumber">请输入端口号</string>
+    <string name="inputPortNumberError">请输入正确的端口</string>
+    <string name="showName">显示名称</string>
+    <string name="showNameOnBoad">在画板上显示用户名称</string>
+    <string name="showNumber">展示数量</string>
+    <string name="showNumberTip">同时最多允许展示%1$d台智写云笔</string>
+    <string name="online">在线</string>
+    <string name="offline">离线</string>
+    <string name="zxyb_max_show_num">已达到最大展示数量</string>
+    <string name="zxyb_name_repeat">名称重复</string>
+    <string name="zxyb_id_repeat">云笔ID重复</string>
+    <string name="name_">名称 :</string>
+    <string name="zxyb_id_">云笔ID :</string>
+    <string name="zxyb_teacher_delete_tip">确定要删除此云笔吗?</string>
+    <string name="zxyb_class_delete_tip">确定要删除此班级吗?</string>
+    <string name="zxyb_student_delete_tip">确定要删除选择的学生吗？</string>
+    <string name="import_class">导入班级</string>
+    <string name="create_class">新建班级</string>
+    <string name="zxyb_teacher_not_add">尚未添加云笔</string>
+    <string name="zxyb_class_not_add">尚未添加班级</string>
+    <string name="zxyb_student_not_add">尚未添加学生</string>
+    <string name="zxyb_import_tip">支持导入Excel 97-2003格式的学生名单，格式为：第一列为学生姓名（最多30字符），第二列为智写云笔的设备ID（最多30字符）；学生姓名和设备ID均不可用重复；点击“保存模板”按钮，可以将模板文件保存到U盘根目录中。</string>
+    <string name="class_name">班级名称</string>
+    <string name="class_delete">删除班级</string>
+    <string name="select_class_list">请选择学生名单</string>
+    <string name="class_list_import_format">学生名单导入格式</string>
+    <string name="check_import_format">查看导入格式</string>
+    <string name="save_import_format">保存模板</string>
+    <string name="zxyb_import_result">导入结果</string>
+    <string name="zxyb_import_total">%1$d条成功, %2$d条失败</string>
+    <string name="zxyb_import_error_miss_name">第%1$d行,缺少学生姓名</string>
+    <string name="zxyb_import_error_miss_id">第%1$d行,缺少设备ID</string>
+    <string name="zxyb_import_error_repeat_name">第%1$d行,学生姓名重复</string>
+    <string name="zxyb_import_error_repeat_id">第%1$d行,设备ID重复</string>
+    <string name="zxyb_import_error_name_over_flow">第%1$d行,学生姓名过长</string>
+    <string name="zxyb_import_error_id_over_flow">第%1$d行,设备ID过长</string>
+    <string name="zxyb_import_error_num_over_flow">第%1$d行,超出学生最大数量</string>
+    <string name="thumbnail">缩略图</string>
+    <string name="orientation">方向</string>
+    <string name="compare">对比</string>
+    <string name="clean">清除</string>
+    <string name="add_student">添加学生</string>
+    <string name="delete_student">删除学生</string>
+    <string name="modify_student">编辑学生</string>
+    <string name="class_not_exist">班级不存在</string>
+    <string name="class_has_delete">班级已被删除</string>
+    <string name="class_has_unselected">班级已下课</string>
+    <string name="zxyb_large">大</string>
+    <string name="zxyb_middle">中</string>
+    <string name="zxyb_small">小</string>
+    <string name="zxyb_vertical">纵向</string>
+    <string name="zxyb_horizontal">横向</string>
+    <string name="zxyb_clean_draw">清除笔迹</string>
+    <string name="zxyb_clean_draw_tip">确定要清除所有笔迹吗?</string>
+    <string name="zxyb_show_item_over_flow">已达到最大展示数量</string>
+    <string name="zxyb_device_offline">学生已离线</string>
+    <string name="zxyb_device_no_auth">学生无授权</string>
+    <string name="zxyb_device_no_choose">无法选择的设备</string>
+    <string name="zxyb_show_no_forward">当前已是第一个</string>
+    <string name="zxyb_show_no_backward">当前已是最后一个</string>
+    <string name="zxyb_teacher_num_over_flow">教师数量已达最大值，无法继续添加</string>
+    <string name="zxyb_class_num_over_flow">班级数量已达最大值，无法新建班级</string>
+    <string name="zxyb_student_num_over_flow">学生数量已达最大值，无法继续添加</string>
+    <string name="zxyb_student_compare_tip">请选择对比的学生(%1$d/%2$d)</string>
+    <string name="zxyb_student_not_online">学生已离线，无法显示到大屏</string>
+    <string name="zxyb_student_no_auth">学生无授权，无法显示到大屏</string>
+    <string name="zxyb_select_class_no_enough_auth_tip">学生数量已超过最大授权数量，%1$d名学生的智写云笔将无法展示笔迹</string>
+    <string name="import_class_notice">正在导入学生信息...</string>
+    <string name="zxyb_compare_no_student_tip">请选择需要对比的学生</string>
+    
+    <string name="zxyb_export_class_success_tip">已保存到U盘根目录中</string>
+    <string name="zxyb_export_class_failed_tip">保存模板文件失败，请检查U盘工作是否正常</string>
+    <!-- <string name="zxyb_export_class_failed_tip_no_space">U盘空间不足</string> -->
+    <!-- <string name="zxyb_export_class_failed_tip_writeless">U盘不可写</string> -->
+    <string name="zxyb_export_class_parse_failed_tip">无法解析此文件，请检查文件是否正确</string>
+    <string name="zxyb_device_not_exist">设备不存在</string>
+    <string name="zxyb_update_success_tip">已更新</string>
+	<string name="zxyb_update_failed_tip">无法连接到服务器，更新失败</string>
+	
+	<!-- UIBC -->
+    <string name="uibc_turn_on">开启反控</string>
+    <string name="uibc_turn_on_tip">已开启反控</string>
+    <string name="uibc_turn_off">关闭反控</string>
+    <string name="uibc_turn_off_tip">已关闭反控</string>
+    
+
+    <!-- v7  -->
+    <!-- 需要定义文案 -->
+    <string name="network_ap_need_password">请设置无线密码</string>
+    <string name="network_dong_setting">正在进行网络设置，请稍后再试</string>
+    <string name="network_restart_failed">网络重启失败</string>
+    <string name="network_other_error">网络异常</string>
+    <string name="network_start_success">网络重启成功</string>
+    <string name="network_connect_hardware_error">网络硬件连接异常</string>
+
+    <string name="network_setting">网络设置</string>
+    <string name="config">配置</string>
+    <string name="network_workmode_s">工作模式: %1$s</string>
+    <string name="network_workmode_route_tip">启用路由服务和无线AP，为终端提供无线连接和IP地址分配</string>
+    <string name="network_workmode_switch_tip">通过桥接连接外网，IP地址由上级网络分配，启用无线AP，为终端提供无线连接</string>
+    <string name="network_workmode_terminal_tip">本机作为网络终端设备，通过有线或者无线连接到上一级网络中</string>
+    <string name="network_extranet_status_s">外网状态: %1$s</string>
+    <string name="network_wifi_status_s">无线网络状态: %1$s</string>
+    <string name="network_mac_s">MAC地址: %1$s</string>
+    <string name="network_wan_ip_s">WAN端口IP地址: %1$s</string>
+    <string name="network_lan_ip_s">本机IP地址: %1$s</string>
+    <string name="network_ip_s">IP地址: %1$s</string>
+    <string name="network_mask_s">子网掩码: %1$s</string>
+    <string name="network_gateway_s">网关: %1$s</string>
+    <string name="network_dns_s">DNS: %1$s</string>
+    <string name="network_dhcp_s">DHCP范围: %1$s</string>
+    <string name="network_ap_ssid_s">SSID: %1$s</string>
+    
+    <string name="network_workmode_route">无线路由器</string>
+    <string name="network_workmode_switch">无线交换</string>
+    <string name="network_workmode_terminal">网络终端</string>
+    
+    <string name="network_ap_wireless">无线AP</string>
+    <string name="network_connect_wifi">连接WIFI</string>
+    
+    <string name="network_workmode_route_scene">适用场景：\n1. 单个云盒独立使用时；\n2. 多个云盒联合使用时，主屏云盒使用此配置，负责管理整个局域网；</string>
+    <string name="network_workmode_switch_scene">适用场景：\n1. 当IP地址需要由上一级网络负责管理时；\n2. 多个云盒联合使用时，分组屏云盒通过此方式连接到主屏云盒的网络中。</string>
+    <string name="network_workmode_terminal_scene">适用场景：\n1. 使用外部无线路由器，无需云盒提供无线AP；\n2. 多个云盒联合使用时，分组屏云盒通过此方式连接到主屏云盒的网络中。</string>
+    
+    <string name="network_extranet_static_connected">静态指定IP地址，已连接</string>
+    <string name="network_extranet_static_disconnect">静态指定IP地址，未连接</string>
+    <string name="network_extranet_dhcp_connected">动态获取IP地址，已连接</string>
+    <string name="network_extranet_dhcp_disconnect">动态获取IP地址，未连接</string>
+    <string name="network_wifi_connect_to">已连接到%1$s</string>
+    
+    <string name="network_please_select_workmode">请选择云盒网络工作模式</string>
+    <string name="network_extranet_disconnect">未连接外网</string>
+    <string name="network_extranet_setting">外网连接设置</string>
+    <string name="network_dhcp_setting">DHCP服务设置</string>
+    <string name="network_dhcp">DHCP服务</string>
+    <string name="network_dhcp_range_">DHCP范围:</string>
+    <string name="network_local_address_">本机地址:</string>
+    <string name="network_mask_">子网掩码:</string>
+    <string name="configuration_failure">配置失败</string>
+    
+    <!-- <string name="ap_work_mode_route">路由模式</string>
+    <string name="ap_work_mode_switch">交换模式</string>
+    <string name="wan_ip_address">WAN IP 地址</string>
+    <string name="lan_ip_address">LAN IP 地址</string> -->
+
+    <!-- wifi 添加失败提示 -->
+    <string name="wifi_connect_failure_for_error_password">密码错误，连接失败</string>
+    <string name="wifi_connect_failure_for_not_find">找不到\"%1$s\"，连接失败</string>
+    <string name="wifi_connect_failure_for_timeout">连接\"%1$s\"超时，连接失败</string>
+    
+    <!--  -->
+    <string name="harddisk">硬盘</string>
+    <string name="internal_hdd">内置硬盘</string>
+    <string name="no_find_hdd">未检测到内置硬盘</string>
+    <string name="format_hdd">格式化硬盘</string>
+    <string name="storage_changed_notice">存储位置变更为</string>
+    <string name="need_format_hdd_to_use">需要格式化才能使用</string>
+    <string name="hdd_formating">正在格式化...</string>
+    <string name="format_hdd_failed">硬盘格式化失败</string>
+    <string name="formatting_hdd_notice">正在格式化硬盘，请稍候再试</string>
+    <string name="format_hdd_notice">格式化将删除该硬盘上的所有数据，\n确定要格式化吗?</string>
+    <string name="hdd_storage_location_normal_no_hour"><Data><![CDATA[<font color="#333333">内置硬盘</font><br><font color="#333333"><small>剩余空间<b>%1$s</b>，预计可录制<b>%2$d</b>分钟视频<small></font>]]></Data></string>
+    <string name="hdd_storage_location_selected_no_hour"><Data><![CDATA[<font color="#0078FF">内置硬盘</font><br><font color="#333333"><small>剩余空间<b>%1$s</b>，预计可录制<b>%2$d</b>分钟视频<small></font>]]></Data></string>
+    <string name="hdd_storage_location_normal"><Data><![CDATA[<font color="#333333">内置硬盘</font><br><font color="#333333"><small>剩余空间<b>%1$s</b>，预计可录制<b>%2$d</b>小时<b>%3$d</b>分钟视频<small></font>]]></Data></string>
+    <string name="hdd_storage_location_selected"><Data><![CDATA[<font color="#0078FF">内置硬盘</font><br><font color="#333333"><small>剩余空间<b>%1$s</b>，预计可录制<b>%2$d</b>小时<b>%3$d</b>分钟视频<small></font>]]></Data></string>
+    <string name="recode_end_save_hdd_disk_tips">录制文件已存储至内置硬盘</string>
+    <string name="screen_shot_success_hdd_tips">屏幕快照已存储至内置硬盘</string>
+    <string name="input_hdmi">HDMI 输入</string>
+    <string name="resolution">分辨率</string>
+    <string name="display_mode">显示模式</string>
+    <string name="modfiy_resolution_notice">*修改分辨率后，需要重启系统才能生效</string>
+    <string-array name="hdmi_input_mode">
+        <item>始终显示</item>
+        <item>有信号时显示</item>
+        <item>禁用</item>
+    </string-array>
+    <string-array name="hdmi_display_mode">
+        <item>镜像模式</item>
+        <item>内容模式</item>
+    </string-array>
+    <string name="setting_display">输入输出</string>
+    
+    <string name="wan_mac_address">WAN MAC 地址</string>
+    <string name="wifi_mac_address">无线网卡 MAC 地址</string>
+    <string name="wan_setting">外网设置</string>
+    <string name="wireless_ap">无线路由器</string>
+    <string name="use_wireless_ap">使用无线路由器</string>
+    <string name="config_wireless_ap">配置无线路由器</string>
+    <string name="ethe_dhcp">动态获取</string>
+    <string name="ethe_static">静态指定</string>
+    <string name="setup_ethe_network">正在配置有线网络,请稍候...</string>
+    <string name="setup_ap_network">正在配置无线路由器,请稍候...</string>
+    <string name="frequency_band">频段</string>
+    <string name="working_mode">工作模式</string>
+    <string name="channel">信道</string>
+    <string name="frequency_band_width">频段带宽</string>
+    <string name="wireless_network_name">无线网络名称</string>
+    <string name="wireless_network_password">无线网络密码</string>
+    <string name="follow_device_name">跟随设备名称</string>
+    <string name="custom_name">自定义名称</string>
+    <string name="encryption_type">加密类型</string>
+    <string name="wireless_password">无线密码</string>
+    <string name="net_visibility">网络可见性</string>
+    <string name="broadcast_ssid">广播SSID</string>
+    <string name="hide_ssid">隐藏SSID</string>
+    <string name="auto">自动</string>
+    <string name="encryption_wap2">WPA2-PSK</string>
+    <string name="encryption_mix">WPA-PSK/WPA2-PSK 混合加密</string>
+    
+    
+    <string name="recovery">还原</string>
+    <string name="keep">保留更改</string>
+    <string name="recovery_title">显示设置</string>
+    <string name="recovery_notice">是否要保留这些显示设置?\n%1$d秒后还原为以前的显示设置</string>
+    
+    <string name="bind_info">绑定信息</string>
+    <string name="centralized_control_manager_system">集控管理系统</string>
+    <string name="no_bind_info">暂未绑定</string>
+    <string name="bind">绑定</string>
+    <string name="free_bind">解绑</string>
+    <string name="dialog_bind_title">绑定Mythware ID</string>
+    <string name="mythware_id_failed">Mythware ID错误</string>
+    <string name="cannot_find_mythware_id">未找到Mythware ID</string>
+    <string name="confirm_bind_this_mythware_id">确定要绑定该Mythware ID吗？</string>
+    <string name="bind_success">绑定成功</string>
+    <string name="bind_failed">绑定失败</string>
+    <string name="confirm_unbind">确定要解绑吗？</string>
+    <string name="unbind_success">解绑成功</string>
+    <string name="unbind_failed">解绑失败</string>
+    <string name="give_up">放弃</string>
+    <string name="upgrade_seconds">升级 (%1$d s)</string>
+    <string name="remote_auto_update_content">根据网络下载速度，系统升级可能需要几分钟到数十分钟，在升级过程中，请不要操作设备，并保持设备正常供电</string>
+    
+    <string name="screen_shot_busy_notice">正在截屏,请稍后</string>
+    
+</resources>
